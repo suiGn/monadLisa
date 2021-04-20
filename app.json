@@ -1,0 +1,9 @@
+{
+  "name": "Start on Heroku",
+  "description": "cleaker json for heroku server app",
+  "repository": "https://github.com/suiGn/cleaker",
+  "logo": "",
+  "keywords": ["cleaker","node", "express", "heroku","github"],
+  "image": "heroku/nodejs"
+}
+
