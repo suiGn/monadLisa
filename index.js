@@ -31,7 +31,7 @@ const { Client } = require('pg');
 
 
 const theVault = new Client({
-connectionString: "postgres://csicplnifqncpc:ce12c51c83e437148779a4f7e0d508722f0a5ce9f05f894f9b6f88b9f2d9b3f9@ec2-174-129-253-53.compute-1.amazonaws.com:5432/d70qi6m3chd89a",
+connectionString: "postgres://actrqichtajnmf:909f1306da4d36e65b81649e6677d30ae8e55a57925b0e501a0c1642e58d80bd@ec2-34-194-215-27.compute-1.amazonaws.com:5432/dhfui1h48dc48",
 ssl: { rejectUnauthorized: false }
 });
 theVault.connect();
@@ -41,7 +41,7 @@ const server = express()
 	//SETTING UP ROUTING SPECS
  	.use(bodyParser.urlencoded({ extended: false }))
  	.use(bodyParser.json())
-	.use(forceSecure(["cleaker.me","wwww.cleaker.me"])) // FORCE SSL
+	.use(forceSecure(["monadlisa.com","wwww.monadlisa.com"])) // FORCE SSL
 	.use(express.static(path.join(__dirname, 'server/public')))
 	.set('views', path.join(__dirname, 'server/views'))
 	.set('view engine', 'ejs')
@@ -53,12 +53,6 @@ const server = express()
 	.listen(PORT, () => console.log(` 
                          ${monadLisa_art.monadPrint}
 				Listening on port: ${PORT}`));
-	
-	
-		
-				
-		
-	
 		
 				
 	   /** 				  o       o                                
@@ -69,10 +63,7 @@ const server = express()
 		/*_      _____ ___ ___  ___   ___ _  _____ _____ 
 		 \ \    / / __| _ ) __|/ _ \ / __| |/ / __|_   _|
 	      \ \/\/ /| _|| _ \__ \ (_) | (__| ' <| _|  | |  
-		   \_/\_/ |___|___/___/\___/ \___|_|\_\___| |_|
-					┌─┐┬  ┌─┐┌─┐┬┌─┌─┐┬─┐
-					│  │  ├┤ ├─┤├┴┐├┤ ├┬┘
-					└─┘┴─┘└─┘┴ ┴┴ ┴└─┘┴└─    
+		   \_/\_/ |___|___/___/\___/ \___|_|\_\___| |_| 
 				serverside websocket managment **/
 		
 		var webSocketServer = require('websocket').server;
@@ -82,23 +73,23 @@ const server = express()
 		var wsServer = new webSocketServer({
 	    httpServer: server
 			});
-	//exports.wsServer;
+
 	// WebSocket server Starts from Here
 	wsServer.on('request', function(request) {
 			   var uuid_numbr = uuid.v4();
 			  
-			//accept connection if check 'request.origin'
+			   //accept connection if check 'request.origin'
 			   var connection = request.accept(); //connecting from same website
 			   var index = clients.push(connection) - 1; //client index to remove them on 'close' event
 			   //A connection was acepted.
-			   //console.log('1. wsOnRqstLog - Connection Accepted UUID: ' + uuid_numbr + ' Request.Origin: ' + request.origin);
-			    //starts - comunication with user - connection.on 
+			   console.log('1. wsOnRqstLog - Connection Accepted UUID: ' + uuid_numbr + ' Request.Origin: ' + request.origin);
+			   //starts - comunication with user - connection.on 
 			   connection.sendUTF(JSON.stringify({ type:'cleaked', uuid: uuid_numbr})); // 'cleaked' -- cleaker.js handshake innitiation
 			   //Listening - on incoming comunication
 				  connection.on('message', function(message) {
 					if (message.type === 'utf8') { //IF TEXT. 
 						pckr = JSON.parse(message.utf8Data); //parse to json
-						if (pckr.clkcd === 'CleakerRunMe') { //Create rooms for Broadcast Redirection.
+						if (pckr.clkcd === 'CleakerRunMe') { 
 	   					var runMeMember = {
 	   						room: pckr.cleakerRoom,
 	   						index: index,
