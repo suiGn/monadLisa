@@ -18,6 +18,7 @@ const jwt = require('jsonwebtoken');
 
 //DATA BASE CONNECTION
 const { Client } = require('pg');
+
 const theVault = new Client({
 connectionString: "postgres://csicplnifqncpc:ce12c51c83e437148779a4f7e0d508722f0a5ce9f05f894f9b6f88b9f2d9b3f9@ec2-174-129-253-53.compute-1.amazonaws.com:5432/d70qi6m3chd89a",
 ssl: { rejectUnauthorized: false }
@@ -25,33 +26,6 @@ ssl: { rejectUnauthorized: false }
 theVault.connect();
  
 exports.home = function(req, res){res.render('pages/main/index', { opt: ""})};
-exports.shadow = function(req, res){res.render('pages/main/shadow')};
-exports.login = function(req, res){
-	 if(req.body.usrname === "asfo" && req.body.pwd === "holamundo") {
-	     const payload = {
-	      check:  true
-	     };
-	     const token = jwt.sign(payload, config.llave, {
-	      expiresIn: 1440
-	     });
-	     res.json({
-	      mensaje: 'Autenticación correcta',
-	      token: token
-	     });
-	       } else {
-	      res.json({ mensaje: "Usuario o contraseña incorrectos"})
-	       }
-	   };
-
-exports.datos = function(req, res){
- const datos = [
-  { id: 1, nombre: "Asfo" },
-  { id: 2, nombre: "Denisse" },
-  { id: 3, nombre: "Carlos" }
- ];
- 
- res.json(datos);
-};
 
 //subscribe
 exports.subscribing = function(req,res){
