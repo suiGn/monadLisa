@@ -11,42 +11,8 @@
     /  {     }  . || |
 	collective consciousness.
 	
-# SUM
-	- cleaker.me
-	- What do you want to want?
-	- get.run.manage your own data.
-	- Connect to the Vault,
-	  - Build collections:
-	      *Decide your sources of information.
-		
-                                    GUI MAP
-	________________________-------------------------______________________
-		
-	Profile [Inf.]     -           Followers 	 -        Following 	
-	|			 	 |			      |
-	The Vault		     See public		           See public
-	|			   && custom Collections.     	&& custom Collections
-	See All			
-	|
-	Default			
-	|			------->> Pin Vaults
-	collection/1-Private	<<------  ""
-	|
-	collection/2-Public	------------------------------>> Pin Vaults
-	|			<<-----------------------------   ""
-	collection/3-Custom
-	
-	---------------------------____________________---------------------------
-	Messages && Channels
-	Profiles
-	Vault Likes and Pins
-	Custom Searches:
-	              Search in all cleaker -> m.L suggestions.
-		      Search in scope -> Set by user.
-	
-	
-   
-# I Array Cleaker 
+	   
+# I Array 
 		var cleaker ={    
 				uuid: myUUID,
 				onDate: new Date(),
@@ -123,11 +89,7 @@ console.log("average IQ is:" averageIQ);
       |:::::::::::|
       '-=========-
 	  SUI GN.
-	  Git ++ Heroku
 	  	  
   	Art[iculos] de programaci[on]
   	Art On
 	  
-
-
-

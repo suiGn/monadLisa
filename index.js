@@ -67,17 +67,13 @@ const server = express()
 				serverside websocket managment **/
 		
 		var webSocketServer = require('websocket').server;
-		var clients = [ ];
-		var allMembers = [ ];
-		
+		var clients = [ ];		
 		var wsServer = new webSocketServer({
 	    httpServer: server
 			});
-
 	// WebSocket server Starts from Here
 	wsServer.on('request', function(request) {
 			   var uuid_numbr = uuid.v4();
-			  
 			   //accept connection if check 'request.origin'
 			   var connection = request.accept(); //connecting from same website
 			   var index = clients.push(connection) - 1; //client index to remove them on 'close' event
@@ -89,41 +85,13 @@ const server = express()
 				  connection.on('message', function(message) {
 					if (message.type === 'utf8') { //IF TEXT. 
 						pckr = JSON.parse(message.utf8Data); //parse to json
-						if (pckr.clkcd === 'CleakerRunMe') { 
-	   					var runMeMember = {
-	   						room: pckr.cleakerRoom,
-	   						index: index,
-	   						client: connection,
-							uuid: uuid_numbr
-						}	
-	   			  //Push into the array
-	   			  allMembers.push(runMeMember) - 1;// index to remove them on 'close' event;			
-				} 
-				else if (pckr.clkcd === 'onCleaker'){ //CLEAKER NETWORK MONITORING
-				//console.log(pckr.cleaker); //for dev purposes, remove to not saturate the console.
-				//packet - send INFORMATION TO RUNME
-				var activeUser = JSON.stringify({ type: "clkr_Start", cleaker: pckr.cleaker});
-				//console.log(pckr.cleaker);
-				brdCstRight("runmeMasterMind", activeUser);
-						} //ACTIVE USERS - RUNME CLOSURE
+					if (pckr.clkcd === 'CLEAKEDBack'){ //CLEAKEDBack
+				console.log(pckr.cleaker); //for dev purposes, remove to not saturate the console.	
+						} 
 				else if (pckr.clkcd === 'appCleaker'){ // RECEIVING CLEAKER FROM A MOBILE APP
-						//console.log(pckr.cleaker);
-						}//MOBILE APP CLOSURE
-				else if (pckr.clkcd === 'keepMeAlive'){ // TIMER TO KEEP SESSIONS ALIVE
-						//console.log("keepme");
-				 	 	var stayingAlive = JSON.stringify({ type: "stayingAlive", chorus: "A A A A"});
-				 	 	brdCstRight("runmeMasterMind", stayingAlive);
-						}// KEEP ME ALIVE CLOSURE
-						
-						else if (pckr.clkcd == "subVer"){//submit Data Verification
- 			  exports.subVerificationRes = function(type, value, color, input, label, check){
- 			 		connection.sendUTF(JSON.stringify({ type:type, value: value, rcolor:color ,input: input,label: label, check: check}));
- 			 			   }
-							method.dataSubmitVerification(pckr);
-						}//subVer
-
-
-						}//IF MESSAGE.TYPE CLOSURE
+						console.log(pckr.cleaker);
+						}//MOBILE APP CLOSURE						
+							}//IF MESSAGE.TYPE CLOSURE
 								});//END CONNECTION.ON MESSAGE		
 															
 				// User disconnected
