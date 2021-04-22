@@ -1,5 +1,5 @@
 //CLEAKER - EVoL.VE
-$.getJSON("https://pro.ip-api.com/json/?callback=?&key=aGbt2iIuvD8OhJl", function(data) {
+$('document').ready(function(){
 		//SET DATA READY
 		//USE URL WS:// OR WSS:// (IF USING TLS)
 		//var ws = new WebSocket("wss://monadlisa.herokuapp.com");
@@ -53,7 +53,7 @@ $.getJSON("https://pro.ip-api.com/json/?callback=?&key=aGbt2iIuvD8OhJl", functio
 				 ws.send(JSON.stringify({clkcd: 'CLEAKEDBack' , cleaker: cleaker}));
 			 }
 		 }
-	 });
+	}); // DOCUMENT ON READY
 
 	 /*
 	 neutonsartntec
