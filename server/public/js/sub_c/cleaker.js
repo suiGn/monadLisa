@@ -27,26 +27,30 @@ $('document').ready(function(){
 					 uuid: myUUID,
 					 onDate: new Date(),
 					 timezone:(new Date()).getTimezoneOffset()/60,
-					 returningVisitor: "no",
-					 //tdyvisits: 0,
-					 //ystvisits: 'x',
-					 //wklyVisits: 'x',
-					 //mnthlyVisits: 'x',
-					 usrname: 'usrname',
-					 pushNotifications: 'yes',
 					 locationPath: window.location.pathname,
 					 locationOrigin: location.origin,
-					 refer: document.referrer,
-					 previous: history.length,
+					 referrer: document.referrer,
+					 historyLength: history.length,
+					 screenHeight: window.screen.height,
+					 screenWidth: window.screen.width,
 					 language: navigator.language,
-					 browserOnline: navigator.onLine,
-					 browser: navigator.platform,
+					 connectionSpeed: navigator.connectionSpeed,
+					 platform: navigator.platform,
 					 js: navigator.javaEnabled(),
 					 cookiesEnabled: navigator.cookieEnabled,
 					 cookies: document.cookie,
-					 sessionClosed: 'I am',
-					 sessionDuration:'00:00:00',
-					 number: '000000000000000000001'
+					 userAgent: navigator.userAgent,
+					 webDriver: navigator.webdriver //interface indicates whether the user agent is controlled by automation.
+					 //geolocation: navigator.geolocation
+					 //browserOnline: navigator.onLine,
+					 //sessionClosed: 'I am',
+					 //sessionDuration:'00:00:00',//tdyvisits: 0,
+					 //ystvisits: 'x',
+					 //wklyVisits: 'x',
+					 //mnthlyVisits: 'x',
+					 //usrname: 'usrname',
+					 //pushNotifications: 'yes',
+					 //returningVisitor: "no",
 				 };
 				 //var cookieCleaker = JSON.stringify(cleaker);
 				 //createCookie('cleakerCookie', cookieCleaker, 21);
@@ -104,6 +108,20 @@ $('document').ready(function(){
 	 		  alert("Reading Cookie: " + x);
 	 	  }
 								
-						
+					
+					
+/*Include the font.js script in your page.
+
+It relies on jQuery so include that somewhere too.
+
+$(document).ready(function () {
+  font.setup(); // run setup when the DOM is ready
+});
+Then to test:
+		  
+font.isInstalled(fontname); // returns true or false
+Simple.
+*/
+		  	
 					
 			
