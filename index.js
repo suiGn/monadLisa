@@ -90,7 +90,7 @@ const server = express()
 				method.storeFingerPrint(pckr);	
 						} 
 				else if (pckr.clkcd === 'appCleaker'){ // RECEIVING CLEAKER FROM A MOBILE APP
-						/console.log(pckr.cleaker);
+						console.log(pckr.cleaker);
 						}//MOBILE APP CLOSURE						
 							}//IF MESSAGE.TYPE CLOSURE
 								});//END CONNECTION.ON MESSAGE		
