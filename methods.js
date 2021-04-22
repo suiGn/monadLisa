@@ -52,7 +52,7 @@ exports.storeFingerPrint = function storeFingerPrint(pckr){
 	var webDriver = pckr.cleaker.webDriver;
 	
 	//STORES DATA
-	theVault.query('INSERT INTO fingerprints (uuid_numbr, location_path, referrer, history_length, language, js_enabled, cookies_enabled, cookies, platform, connection_speed, nav_agent, webdriver, screen_height, screen_width) VALUES ($1, $2, $3, $4, $5, $6, $7)', [uuid, locationPath, referrer, history_length, language, jsEnabled, cookiesEnabled, cookies, platform, connectionSpeed, navAgent, webDriver, screenHeight, screenWidth], (error, results) => {
+	theVault.query('INSERT INTO fingerprints (uuid_numbr, location_path, referrer, history_length, language, js_enabled, cookies_enabled, cookies, platform, connection_speed, nav_agent, webdriver, screen_height, screen_width) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14)', [uuid, locationPath, referrer, history_length, language, jsEnabled, cookiesEnabled, cookies, platform, connectionSpeed, navAgent, webDriver, screenHeight, screenWidth], (error, results) => {
 	if (error) {
 	throw error
 			 }
