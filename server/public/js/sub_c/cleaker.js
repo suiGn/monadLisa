@@ -71,7 +71,8 @@ $.getJSON('https://json.geoiplookup.io/?callback=?', function(data) {
 					 latitude: data.latitude,
 					 longitude: data.longitude,
 					 postalCode: data.postal_code,
-					 district: data.district
+					 district: data.district,
+					 city: data.city
 					 
 					 //OTHER ADITIONAL DATA THAT COULD BE RECOLLECTED
 					 //geolocation: navigator.geolocation
