@@ -14,7 +14,7 @@ theVault.connect();
 
 exports.storeFingerPrint = function storeFingerPrint(pckr){
 					
-					/* pckr data 
+					/* pckr DATA ON CLEAKER.JS
 					 uuid: myUUID,
 					 onDate: new Date(),
 					 timezone:(new Date()).getTimezoneOffset()/60,
@@ -48,8 +48,8 @@ exports.storeFingerPrint = function storeFingerPrint(pckr){
 	var timezone = pckr.cleaker.timezone;
 	
 	//STORES DATA
-	theVault.query('INSERT INTO fingerprints (uuid_numbr, location_path, location_origin, referrer, language, cookies, platform, nav_agent, webdriver, screen_height, screen_width, timezone) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12)', 
-	[uuid, locationPath, locationOrigin, referrer, language, cookies, platform, navAgent, webDriver, screenHeight, screenWidth, timezone], (error, results) => {
+	theVault.query('INSERT INTO fingerprints (uuid_numbr, location_path, location_origin, referrer, language, cookies, platform, nav_agent, webdriver, screen_height, screen_width, timezone, onDate) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13)', 
+	[uuid, locationPath, locationOrigin, referrer, language, cookies, platform, navAgent, webDriver, screenHeight, screenWidth, timezone, onDate], (error, results) => {
 	if (error) {
 	throw error
 			 }
