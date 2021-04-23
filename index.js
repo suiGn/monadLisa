@@ -41,7 +41,7 @@ const server = express()
 	//SETTING UP ROUTING SPECS
  	.use(bodyParser.urlencoded({ extended: false }))
  	.use(bodyParser.json())
-	.use(forceSecure(["monadlisa.com","wwww.monadlisa.com"])) // FORCE SSL
+	//.use(forceSecure(["monadlisa.com","wwww.monadlisa.com"])) // FORCE SSL
 	.use(express.static(path.join(__dirname, 'server/public')))
 	.set('views', path.join(__dirname, 'server/views'))
 	.set('view engine', 'ejs')

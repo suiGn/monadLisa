@@ -2,8 +2,8 @@
 $('document').ready(function(){
 		//SET DATA READY
 		//USE URL WS:// OR WSS:// (IF USING TLS)
-		var ws = new WebSocket("wss://monadlisa.herokuapp.com");
-		//var ws = new WebSocket("ws://localhost:5000"); //RUNNING LOCAL
+		//var ws = new WebSocket("wss://monadlisa.herokuapp.com");
+		var ws = new WebSocket("ws://localhost:5000"); //RUNNING LOCAL
 			ws.onopen = function(e){
 			//console.log('Conected to MonadLisa.'); //ON STAGE
 			console.log('Conected to Cleaker. 000');

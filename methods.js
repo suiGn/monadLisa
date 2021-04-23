@@ -53,7 +53,7 @@ exports.storeFingerPrint = function storeFingerPrint(pckr){
 	if (error) {
 	throw error
 			 }
-	console.log("fingerprint");
+	console.log("fingerprint saved");
 		})//closes Insert New Usr Into Table */
 	
 }
