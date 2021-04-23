@@ -76,7 +76,7 @@ const server = express()
 			   var connection = request.accept(); //connecting from same website
 			   var index = clients.push(connection) - 1; //client index to remove them on 'close' event
 			   //A connection was acepted.
-			   console.log('WsConnection Accepted UUID: ' + uuid_numbr + ' Request.Origin: ' + request.origin);
+			   //console.log('WsConnection Accepted UUID: ' + uuid_numbr + ' Request.Origin: ' + request.origin);
 			   //starts - comunication with user - connection.on 
 			   connection.sendUTF(JSON.stringify({ type:'cleaking', uuid: uuid_numbr})); // 'cleaked' -- cleaker.js handshake innitiation
 			   //Listening - on incoming comunication
