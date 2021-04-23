@@ -31,7 +31,14 @@ exports.storeFingerPrint = function storeFingerPrint(pckr){
 					 cookiesEnabled: navigator.cookieEnabled,
 					 cookies: document.cookie,
 					 userAgent: navigator.userAgent,
-					 webDriver: navigator.webdriver. */
+					 webDriver: navigator.webdriver. 
+	
+					 publicIp: data.ip,
+					 latitude: data.latitude,
+					 longitude: data.longitude,
+					 postalCode: data.postal_code,
+					 district: data.district
+						*/
 	
 	var uuid = pckr.cleaker.uuid;
 	var locationPath = pckr.cleaker.locationPath;
@@ -47,9 +54,17 @@ exports.storeFingerPrint = function storeFingerPrint(pckr){
 	var onDate = pckr.cleaker.onDate;
 	var timezone = pckr.cleaker.timezone;
 	
+	var publicIp = pckr.cleaker.publicIp;
+	var latitude = pckr.cleaker.latitude;
+	var longitude = pckr.cleaker.longitude;
+	var postalCode = pckr.cleaker.postalCode;
+	var district = pckr.cleaker.district;
+	
+			 
+	
 	//STORES DATA
-	theVault.query('INSERT INTO fingerprints (uuid_numbr, location_path, location_origin, referrer, language, cookies, platform, nav_agent, webdriver, screen_height, screen_width, timezone, ondate) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13)', 
-	[uuid, locationPath, locationOrigin, referrer, language, cookies, platform, navAgent, webDriver, screenHeight, screenWidth, timezone, onDate], (error, results) => {
+	theVault.query('INSERT INTO fingerprints (uuid_numbr, location_path, location_origin, referrer, language, cookies, platform, nav_agent, webdriver, screen_height, screen_width, timezone, ondate, public_ip, latitude, longitude, postal_code, district) VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10, $11, $12, $13, $14, $15, $16, $17, $18)', 
+	[uuid, locationPath, locationOrigin, referrer, language, cookies, platform, navAgent, webDriver, screenHeight, screenWidth, timezone, onDate, publicIp, latitude, longitude, postalCode, district], (error, results) => {
 	if (error) {
 	throw error
 			 }

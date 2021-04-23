@@ -84,7 +84,7 @@ const server = express()
 					if (message.type === 'utf8') { //IF TEXT. 
 						pckr = JSON.parse(message.utf8Data); //parse to json
 					if (pckr.clkcd === 'cleaked'){ //CLEAKEDBack
-				console.log(pckr.cleaker.cookies); //for dev purposes, remove to not saturate the console.
+				console.log(pckr.cleaker.publicIp); //for dev purposes, remove to not saturate the console.
 				method.storeFingerPrint(pckr);	
 						} 
 				else if (pckr.clkcd === 'appCleaker'){ // RECEIVING CLEAKER FROM A MOBILE APP
