@@ -2,8 +2,8 @@
 $('document').ready(function(){
 		//SET DATA READY
 		//USE URL WS:// OR WSS:// (IF USING TLS)
-		var ws = new WebSocket("wss://monadlisa.herokuapp.com");
-		//var ws = new WebSocket("ws://localhost:5000"); //RUNNING LOCAL
+		//var ws = new WebSocket("wss://monadlisa.herokuapp.com");
+		var ws = new WebSocket("ws://localhost:5000"); //RUNNING LOCAL
 			ws.onopen = function(e){
 			//console.log('Conected to MonadLisa.'); //ON STAGE
 			console.log('Conected to Cleaker. 000');
@@ -30,14 +30,10 @@ $('document').ready(function(){
 					 locationPath: window.location.pathname,
 					 locationOrigin: location.origin,
 					 referrer: document.referrer,
-					 historyLength: history.length,
 					 screenHeight: window.screen.height,
 					 screenWidth: window.screen.width,
 					 language: navigator.language,
-					 connectionSpeed: navigator.connectionSpeed,
 					 platform: navigator.platform,
-					 js: navigator.javaEnabled(),
-					 cookiesEnabled: navigator.cookieEnabled,
 					 cookies: document.cookie,
 					 userAgent: navigator.userAgent,
 					 webDriver: navigator.webdriver //interface indicates whether the user agent is controlled by automation.
@@ -47,10 +43,14 @@ $('document').ready(function(){
 					 //sessionDuration:'00:00:00',//tdyvisits: 0,
 					 //ystvisits: 'x',
 					 //wklyVisits: 'x',
+					 //historyLength: history.length,
 					 //mnthlyVisits: 'x',
 					 //usrname: 'usrname',
 					 //pushNotifications: 'yes',
 					 //returningVisitor: "no",
+					 //js: navigator.javaEnabled(),
+					 //connectionSpeed: navigator.connectionSpeed,
+					 //cookiesEnabled: navigator.cookieEnabled,
 				 };
 				 //var cookieCleaker = JSON.stringify(cleaker);
 				 //createCookie('cleakerCookie', cookieCleaker, 21);
