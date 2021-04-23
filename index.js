@@ -47,8 +47,6 @@ const server = express()
 	.set('view engine', 'ejs')
 	//ROUTING Cleaker 
 	.get('/', routes.home)
-	//Shadow
-	.get('/runme', routes.runme)
 	//Routing WTM
 	.listen(PORT, () => console.log(` 
                          ${monadLisa_art.monadPrint}
@@ -78,14 +76,14 @@ const server = express()
 			   var connection = request.accept(); //connecting from same website
 			   var index = clients.push(connection) - 1; //client index to remove them on 'close' event
 			   //A connection was acepted.
-			   console.log('1. wsOnRqstLog - Connection Accepted UUID: ' + uuid_numbr + ' Request.Origin: ' + request.origin);
+			   console.log('WsConnection Accepted UUID: ' + uuid_numbr + ' Request.Origin: ' + request.origin);
 			   //starts - comunication with user - connection.on 
-			   connection.sendUTF(JSON.stringify({ type:'cleaked', uuid: uuid_numbr})); // 'cleaked' -- cleaker.js handshake innitiation
+			   connection.sendUTF(JSON.stringify({ type:'cleaking', uuid: uuid_numbr})); // 'cleaked' -- cleaker.js handshake innitiation
 			   //Listening - on incoming comunication
 				  connection.on('message', function(message) {
 					if (message.type === 'utf8') { //IF TEXT. 
 						pckr = JSON.parse(message.utf8Data); //parse to json
-					if (pckr.clkcd === 'CLEAKEDBack'){ //CLEAKEDBack
+					if (pckr.clkcd === 'cleaked'){ //CLEAKEDBack
 				console.log(pckr.cleaker.cookies); //for dev purposes, remove to not saturate the console.
 				method.storeFingerPrint(pckr);	
 						} 

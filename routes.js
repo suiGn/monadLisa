@@ -72,9 +72,6 @@ exports.subscribing = function(req,res){
 			}
 		}
 				
-//CLEAKER ANALYTICS ROUTES
-exports.runme = function(req, res){res.render('pages/main/runme')};
-
 
 
 
