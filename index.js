@@ -11,6 +11,8 @@ Put a line into the editor
 plug it to your brain
 ****/
 ////carrier : <script src="https://cleaker.herokuapp.com/js/sub_c/cleaker.js"></script>
+
+
 //SETTING UP SERVER VARIABLES AND DEPENDENCIES
 /** Global variables */
 const forceSecure = require("force-secure-express");
@@ -46,6 +48,7 @@ const server = express()
 	.set('view engine', 'ejs')
 	//ROUTING Cleaker 
 	.get('/', routes.home)
+	.get('/push', routes.push)
 	//Routing WTM
 	.listen(PORT, () => console.log(` 
                          ${monadLisa_art.monadPrint}

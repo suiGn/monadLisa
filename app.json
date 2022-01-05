@@ -1,9 +1,9 @@
 {
-  "name": "Start on Heroku",
-  "description": "cleaker json for heroku server app",
-  "repository": "https://github.com/suiGn/cleaker",
+  "name": "monadLisa",
+  "description": "monadLisa env",
+  "repository": "https://github.com/suiGn/monadLisa",
   "logo": "",
-  "keywords": ["cleaker","node", "express", "heroku","github"],
+  "keywords": ["monad","node", "express", "heroku","github", "monadLisa", "artificial intelligence"],
   "image": "heroku/nodejs"
 }
 
