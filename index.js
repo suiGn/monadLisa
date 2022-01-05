@@ -37,7 +37,6 @@ ssl: { rejectUnauthorized: false }
 });
 theVault.connect();
 
-
 const server = express()
 	//SETTING UP ROUTING SPECS
  	.use(bodyParser.urlencoded({ extended: false }))
@@ -46,9 +45,11 @@ const server = express()
 	.use(express.static(path.join(__dirname, 'server/public')))
 	.set('views', path.join(__dirname, 'server/views'))
 	.set('view engine', 'ejs')
-	//ROUTING Cleaker 
+	//ROUTING monadLisa 
 	.get('/', routes.home)
-	.get('/push', routes.push)
+	.get('/terms', routes.terms)
+	.get('*', routes.notFound)
+	
 	//Routing WTM
 	.listen(PORT, () => console.log(` 
                          ${monadLisa_art.monadPrint}

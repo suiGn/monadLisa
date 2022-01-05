@@ -24,5 +24,6 @@ ssl: { rejectUnauthorized: false }
 });
 theVault.connect();
  
-exports.home = function(req, res){res.render('pages/main/index', { opt: ""})};
-exports.push = function(req, res){res.render('pages/push')};
+exports.home = function(req, res){res.render('pages/index', { opt: ""})};
+exports.terms = function(req, res){res.render('pages/terms')};
+exports.notFound = function(req, res){res.render('pages/404')};
