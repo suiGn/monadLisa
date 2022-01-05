@@ -1,0 +1,53 @@
+{
+  "name": "safe-flat",
+  "version": "2.0.2",
+  "description": "Safely flatten a nested JavaScript object.",
+  "main": "src/index.js",
+  "scripts": {
+    "commit": "git add --all && npx git-cz --signoff",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "fix": "eslint src test --fix",
+    "lint": "eslint src test",
+    "test": "nyc ava",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jessie-codes/safe-flat.git"
+  },
+  "keywords": [
+    "flat",
+    "flatten",
+    "json",
+    "nested",
+    "object",
+    "safe",
+    "serialize",
+    "unflatten"
+  ],
+  "author": "Jessie Barnett",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jessie-codes/safe-flat/issues"
+  },
+  "homepage": "https://github.com/jessie-codes/safe-flat#readme",
+  "devDependencies": {
+    "ava": "^3.12.1",
+    "commitizen": "^4.2.1",
+    "conventional-changelog-cli": "^2.1.0",
+    "coveralls": "^3.1.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "eslint": "^7.8.1",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "nyc": "^15.1.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
