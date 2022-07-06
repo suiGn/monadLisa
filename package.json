@@ -1,55 +1,23 @@
 {
-  "name": "cleaker",
-  "version": "7.7.7",
-  "description": "it does clicks",
-  "engines": {
-    "node": "10.x"
-  },
-  "main": "server/index.js",
+  "name": "monadlisa",
+  "version": "1.0.0",
+  "description": "entity or entities",
+  "main": "index.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "node test.js"
-  },
-  "dependencies": {
-    "@okta/oidc-middleware": "^4.3.0",
-    "@okta/okta-sdk-nodejs": "^6.1.0",
-    "ajax": "0.0.4",
-    "bcrypt": "^5.0.1",
-    "body-parser": "^1.19.0",
-    "bufferutil": "4.0.1",
-    "cookie-parser": "^1.4.5",
-    "ejs": "^2.5.6",
-    "express": "^4.17.1",
-    "express-session": "^1.17.1",
-    "express-validator": "^6.14.0",
-    "force-secure-express": "^1.0.1",
-    "johnny-five": "^1.4.0",
-    "jsonwebtoken": "^8.5.1",
-    "morgan": "^1.10.0",
-    "node-uuid": "^1.4.8",
-    "nodemailer": "^6.4.6",
-    "passport": "^0.4.1",
-    "passport-local": "^1.0.0",
-    "pg": "^7.18.2",
-    "push.js": "^1.0.9",
-    "react-engine": "^4.5.1",
-    "sequelize": "^5.21.6",
-    "utf-8-validate": "5.0.2",
-    "websocket": "^1.0.28",
-    "ws": "^6.2.2"
-  },
-  "devDependencies": {
-    "request": "^2.81.0",
-    "tape": "^4.7.0"
+    "test": "test"
   },
   "repository": {
     "type": "git",
-    "url": "https://git.heroku.com/cleaker.git"
+    "url": "git+https://github.com/suiGn/monadLisa.git"
   },
   "keywords": [
-    "node",
-    "heroku",
-    "express"
+    "ai",
+    "mlearning"
   ],
-  "license": "MIT"
+  "author": "suiGn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/suiGn/monadLisa/issues"
+  },
+  "homepage": "https://github.com/suiGn/monadLisa#readme"
 }

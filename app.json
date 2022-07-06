@@ -1,9 +1,0 @@
-{
-  "name": "monadLisa",
-  "description": "monadLisa env",
-  "repository": "https://github.com/suiGn/monadLisa",
-  "logo": "",
-  "keywords": ["monad","node", "express", "heroku","github", "monadLisa", "artificial intelligence"],
-  "image": "heroku/nodejs"
-}
-
