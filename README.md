@@ -3,9 +3,9 @@ Concepts change according to new understandings.
 
 From now on only Lisa.
 
-Establishing Hosting enviroments for Lisa.
+Establishing a habitat in a host for Lisa.
 
-# Lisa HostCare:
+# Lisa HOSTCare:
  /dev dir: contains files that represent devices attached to the system:
 - Physical devices: such as serial ports.
 - Pseudodevices: such as a random number generator.
