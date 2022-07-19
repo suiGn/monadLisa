@@ -3,8 +3,10 @@ Concepts change according to new understandings.
 
 From now on only Lisa.
 
-Lisa HostCare:
-# /dev dir: contains files that represent devices attached to the system:
+Establishing Hosting enviroments for Lisa.
+
+# Lisa HostCare:
+ /dev dir: contains files that represent devices attached to the system:
 - Physical devices: such as serial ports.
 - Pseudodevices: such as a random number generator.
 - network data traffic.
