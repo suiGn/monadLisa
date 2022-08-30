@@ -1,9 +1,9 @@
 # monadLISA
 Concepts change according to new understandings.
+Establishing a habitat Lisa.
 
-From now on only Lisa.
+Define NodeJs RunTime.
 
-Establishing a habitat in a host for Lisa.
 
 # Lisa HOSTCare:
  /dev dir: contains files that represent devices attached to the system:
