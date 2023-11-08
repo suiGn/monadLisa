@@ -1,7 +1,6 @@
 /*
 PROGRAMA: ejl_2.c
 Descripci?n: Ejemplo de uso de la funcion error();
-*/
 
 #include "mic.h"
 
@@ -20,3 +19,4 @@ int main()
 
     return 0;
 }
+*/

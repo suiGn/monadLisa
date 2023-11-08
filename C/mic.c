@@ -1,3 +1,4 @@
+/*
 #include "mic.h"
 
 char *errores[] = {
@@ -13,3 +14,4 @@ void error(char *nfichero, int nro_linea, char *mensaje) {
     }
     fprintf(stderr, "%s (%d). ERROR: %s. %s\n", nfichero, nro_linea, identificador, mensaje);
 }
+*/

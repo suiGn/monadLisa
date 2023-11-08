@@ -1,8 +1,14 @@
 {
   "name": "monadlisa",
-  "version": "1.0.0",
-  "description": "entity or entities",
+  "version": "1.0.1",
+  "description": "Monorepo Setup.",
   "main": "index.js",
+  "private": true,
+  "workspaces": [
+    "endpoints/*",
+    "apps/*",
+    "packages/*"
+  ],
   "scripts": {
     "test": "test"
   },
