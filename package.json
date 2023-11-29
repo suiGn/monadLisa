@@ -1,13 +1,13 @@
 {
   "name": "monadlisa",
   "version": "1.0.1",
-  "description": "Monorepo Setup.",
+  "description": "Monorepo.",
   "main": "index.js",
   "private": true,
   "workspaces": [
-    "endpoints/*",
-    "apps/*",
-    "packages/*"
+    "workspaces/endpoints/*",
+    "workspaces/apps/*",
+    "workspaces/packages/*"
   ],
   "scripts": {
     "test": "test"
@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/suiGn/monadLisa/issues"
   },
-  "homepage": "https://github.com/suiGn/monadLisa#readme"
+  "homepage": "https://github.com/suiGn/monadLisa#readme",
+  "devDependencies": {
+    "mocha": "^10.2.0"
+  }
 }
