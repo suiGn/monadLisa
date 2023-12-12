@@ -1,6 +1,9 @@
 node_modules/
-/packages
-/apps
-/endpoints
-/workspaces
-yarn.lock
+/workspaces/packages/*
+/workspaces/apps/*
+/workspaces/endpoints/*
+/workspacesyarn.lock
+/package-lock.json
+
+# Ignore all files in the root except the ones we want to publish
+
