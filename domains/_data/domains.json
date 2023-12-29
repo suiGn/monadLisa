@@ -1,0 +1,288 @@
+{
+    "domains": [
+      {
+        "name": "kidneywood.info",
+        "type": "Google Sites website",
+        "expiry": "Apr 8, 2024",
+        "warning": "Due to a scheduled service outage, changes to .studio domains may be delayed until Nov 13, 2023 or may fail",
+        "services": ""
+      },
+      {
+        "name": "mlearning.studio",
+        "type": "Google Sites website",
+        "expiry": "Jun 25, 2024",
+        "warning": "",
+        "services": ""
+      },
+      {
+        "name": "abellae.me",
+        "type": "Google Sites website",
+        "expiry": "May 17, 2024",
+        "warning": "",
+        "services": ""
+        
+      },
+      {
+        "name": "abro.homes",
+        "type": "Google Sites website",
+        "expiry": "Mar 22, 2024",
+        "warning": "",
+        "services": ""
+      },
+      {
+        "name": "apollodivers.com",
+        "type": "Google Sites website",
+        "expiry": "Aug 24, 2024",
+        "warning": "",
+        "services": ""
+      },
+      {
+        "name": "arche.com.mx",
+        "type": "Google Sites website",
+        "expiry": "Nov 16, 2023",
+        "warning": "",
+        "services": ""
+      },
+      {
+        "name": "cafedelpais.com.mx",
+        "type": "Google Sites website",
+        "expiry": "Apr 26, 2024",
+        "warning": "",
+        "services": ""
+      },
+      {
+        "name": "cafedelpais.mx",
+        "type": "Google Sites website",
+        "expiry": "Apr 26, 2024",
+        "warning": "",
+        "services": "",
+        "backEnd": "../workspaces/endpoints/Neurons_EndPoint"
+      },
+      {
+        "name": "cleaker.me",
+        "type": "None",
+        "expiry": "Data not provided",
+        "warning": "",
+        "services": ""
+      },
+      {
+        "name": "delpais.mx",
+        "type": "Google Sites website",
+        "expiry": "Apr 30, 2024",
+        "warning": "",
+        "services": ""
+      },
+      {
+        "name": "elbuentono.com",
+        "type": "None",
+        "expiry": "Jul 2, 2024",
+        "warning": "",
+        "services": ""
+      },
+      {
+        "name": "elbuentono.com.mx",
+        "type": "None",
+        "expiry": "Jan 26, 2025",
+        "warning": "",
+        "services": ""
+      },
+      {
+        "name": "fulltrailer.com.mx",
+        "type": "Google Sites website",
+        "expiry": "Feb 16, 2024",
+        "warning": "",
+        "services": "Google Workspace Business Starter"
+      },
+      {
+        "name": "hyundai.space",
+        "type": "Google Sites website",
+        "expiry": "Mar 9, 2024",
+        "warning": "",
+        "services": ""
+      },
+      {
+        "name": "hyundaisureste.mx",
+        "type": "Google Sites website",
+        "expiry": "Apr 2, 2024",
+        "warning": "",
+        "services": ""
+      },
+      {
+        "name": "ilegalmezcal.mx",
+        "type": "None",
+        "expiry": "Apr 2, 2024",
+        "warning": "",
+        "services": ""
+      },
+      {
+        "name": "maizdelpais.com.mx",
+        "type": "None",
+        "expiry": "Apr 25, 2024",
+        "warning": "",
+        "services": ""
+      },
+      {
+        "name": "maizdelpais.mx",
+        "type": "Google Sites website",
+        "expiry": "Apr 24, 2024",
+        "warning": "",
+        "services": ""
+      },
+      {
+        "name": "mdrn.me",
+        "type": "None",
+        "expiry": "Apr 21, 2024",
+        "warning": "",
+        "services": ""
+      },
+      {
+        "name": "mdrnchurch.com",
+        "type": "Google Sites website",
+        "expiry": "Jul 19, 2024",
+        "warning": "",
+        "services": ""
+      },
+      {
+        "name": "metro-bus.mx",
+        "type": "Google Sites website",
+        "expiry": "Jun 15, 2024",
+        "warning": "",
+        "services": ""
+      },
+      {
+        "name": "mexicoencuesta.com",
+        "type": "None",
+        "expiry": "Apr 29, 2025",
+        "warning": "",
+        "services": ""
+      },
+      {
+        "name": "méxicoencuesta.com",
+        "type": "None",
+        "expiry": "Jun 18, 2024",
+        "warning": "",
+        "services": ""
+      },
+      {
+        "name": "mexicoencuesta.mx",
+        "type": "None",
+        "expiry": "Jun 18, 2024",
+        "warning": "",
+        "services": ""
+      },
+      {
+        "name": "mlearning.me",
+        "type": "None",
+        "expiry": "May 30, 2024",
+        "warning": "",
+        "services": ""
+      },
+      {
+        "name": "mlisa.me",
+        "type": "None",
+        "expiry": "Mar 27, 2024",
+        "warning": "",
+        "services": ""
+      },
+      {
+        "name": "monadlisa.com",
+        "type": "Google Sites website",
+        "expiry": "May 12, 2024",
+        "warning": "",
+        "services": ""
+      },
+      {
+        "name": "monadlisa.me",
+        "type": "None",
+        "expiry": "Jun 23, 2024",
+        "warning": "",
+        "services": ""
+      },
+      {
+        "name": "netget.me",
+        "type": "Google Sites website",
+        "expiry": "Oct 17, 2024",
+        "warning": "",
+        "services": ""
+      },
+      {
+        "name": "netget.site",
+        "type": "None",
+        "expiry": "Jun 23, 2024",
+        "warning": "",
+        "services": ""
+      },
+      {
+        "name": "neurons.me",
+        "type": "Google Sites website",
+        "expiry": "Sep 12, 2024",
+        "warning": "",
+        "services": ""
+      },
+      {
+        "name": "orgboat.me",
+        "type": "Google Sites website",
+        "expiry": "May 25, 2024",
+        "warning": "",
+        "services": ""
+      },
+      {
+        "name": "palo-azul.com",
+        "type": "Google Sites website",
+        "expiry": "Sep 18, 2024",
+        "warning": "",
+        "services": ""
+      },
+      {
+        "name": "paloazul.com.mx",
+        "type": "Google Sites website",
+        "expiry": "Mar 27, 2024",
+        "warning": "",
+        "services": ""
+      },
+      {
+        "name": "paloazul.mx",
+        "type": "Google Sites website",
+        "expiry": "Mar 27, 2024",
+        "warning": "",
+        "services": ""
+      },
+      {
+        "name": "papa-juliett.com",
+        "type": "Google Sites website",
+        "expiry": "Aug 20, 2024",
+        "warning": "",
+        "services": ""
+      },
+      {
+        "name": "pixelgrid.me",
+        "type": "None",
+        "expiry": "Aug 16, 2024",
+        "warning": "",
+        "services": ""
+      },
+      {
+        "name": "rafagas.com.mx",
+        "type": "Google Sites website",
+        "expiry": "Mar 14, 2025",
+        "warning": "",
+        "services": ""
+      },
+      {
+        "name": "at0m.me",
+        "type": "Fatcow",
+        "expiry": "Sep 28, 2024",
+        "warning": "",
+        "services": ""
+      },
+      {
+        "name": "suign.com",
+        "type": "Google Sites website",
+        "expiry": "Jun 30, 2024",
+        "warning": "",
+        "services": ""
+      }
+    ]
+  }
+
+

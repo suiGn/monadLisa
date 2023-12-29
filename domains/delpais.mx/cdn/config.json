@@ -1,0 +1,4 @@
+{
+  "network": "chosen_network_name",
+  "additional_config": "some_value"
+}
