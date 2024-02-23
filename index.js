@@ -1,3 +1,9 @@
+//index.js
+/*
+🅜🅞🅝🅐🅓🅛🅘🅢🅐
+ⓝⓔⓤⓡⓞⓝⓢ.ⓜⓔ
+🆂🆄🅸🅶🅽                                                                                                                                         
+*/
 import 'dotenv/config';
 import { createPool } from 'v.path'; // Adjust the path based on your project structure
 import Me from "this.me";
