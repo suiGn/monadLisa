@@ -32,8 +32,14 @@
   },
   "homepage": "https://github.com/suiGn/monadLisa#readme",
   "dependencies": {
-    "this.me": "^2.8.2",
+    "cleaker": "^2.6.1",
     "commander": "^11.1.0",
-    "inquirer": "^9.2.12"
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "inquirer": "^9.2.12",
+    "netget": "^2.3.0",
+    "this.me": "^2.8.4",
+    "v.path": "^2.2.9"
   }
 }
