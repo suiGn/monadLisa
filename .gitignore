@@ -1,15 +1,18 @@
 node_modules/
-workspaces/packages/all.this/*
-workspaces/packages/dataformatters/*
-workspaces/packages/utils/*
-workspaces/packages/controllers/*
+yarn.lock
+package-lock.json
+.env
+**/.DS_Store
+
+# If you plan to add specific directories as submodules, you don't need to ignore them explicitly
+# Remove specific ignores for directories you'll add as submodules
+# For example, if you'll add all.this as a submodule, don't ignore it here
+
+# Ignore all other directories and files in workspaces/packages that are not submodules
+workspaces/packages/*/
+
+# Ignore everything in these directories
 workspaces/apps/*
 workspaces/GPTS/*
 workspaces/endpoints/*
-workspacesyarn.lock
-package-lock.json
-.env
-.DS_Store
-# Ignore all files in the root except the ones we want to publish
-workspaces/packages/.DS_Store
-.DS_Store
+
