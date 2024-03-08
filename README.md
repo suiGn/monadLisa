@@ -39,3 +39,10 @@ This guide would detail steps for installing PM2 (if not already installed), run
 **Modularity and Independence**: Each module within the neurons.me ecosystem is designed to function independently yet possesses the inherent capability to integrate with other modules, forming more complex systems. MonadLisa leverages this principle, demonstrating the power of modular design and the synergistic potential of these modules when combined.
 
 **Conclusion**: MonadLisa  is a manifestation of the modular design philosophy that underpins the **neurons.me ecosystem.** It serves as a living example of how individual utilities and modules can be woven together to create an integrated and functional whole, showcasing the flexibility and adaptability of neurons.me technology.
+
+
+Now, when others clone your main repository, they can fetch all the contents of the submodules by using:
+
+bash
+Copy code
+git clone --recurse-submodules [your-repo-url]

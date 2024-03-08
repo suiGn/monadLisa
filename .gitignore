@@ -1,5 +1,5 @@
 node_modules/
-workspaces/packages/all.this
+workspaces/packages/all.this/*
 workspaces/packages/dataformatters/*
 workspaces/packages/utils/*
 workspaces/packages/controllers/*
@@ -9,6 +9,7 @@ workspaces/endpoints/*
 workspacesyarn.lock
 package-lock.json
 .env
+.DS_Store
 # Ignore all files in the root except the ones we want to publish
-
-"category": "utils",
+workspaces/packages/.DS_Store
+.DS_Store

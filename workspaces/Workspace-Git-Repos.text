@@ -1,0 +1,42 @@
+ALL.THIS
+git submodule add https://github.com/suiGn/all.this workspaces/packages/all.this
+PACKAGES/DATAFORMATTERS
+git submodule add https://github.com/suiGn/this.audio workspaces/packages/dataformatters/this.audio
+git submodule add https://github.com/suiGn/this.dictionaries workspaces/packages/dataformatters/this.dictionaries
+git submodule add https://github.com/suiGn/this.DOM workspaces/packages/dataformatters/this.DOM
+git submodule add https://github.com/suiGn/this.env workspaces/packages/dataformatters/this.env
+git submodule add https://github.com/suiGn/this.GUI workspaces/packages/dataformatters/this.GUI
+git submodule add https://github.com/suiGn/this.img workspaces/packages/dataformatters/this.img
+git submodule add https://github.com/suiGn/this.me workspaces/packages/dataformatters/this.me
+git submodule add https://github.com/suiGn/this.namespace workspaces/packages/dataformatters/this.namespace
+git submodule add https://github.com/suiGn/this.pixel workspaces/packages/dataformatters/this.pixel
+git submodule add https://github.com/suiGn/this.text workspaces/packages/dataformatters/this.text
+git submodule add https://github.com/suiGn/this.video workspaces/packages/dataformatters/this.video
+git submodule add https://github.com/suiGn/this.wallet workspaces/packages/dataformatters/this.wallet
+PACKAGES/UTILS
+git submodule add https://github.com/suiGn/atom.me workspaces/packages/utils/atom.me
+git submodule add https://github.com/suiGn/i.mlearning workspaces/packages/utils/i.mlearning
+git submodule add https://github.com/suiGn/netget workspaces/packages/utils/netget
+git submodule add https://github.com/suiGn/neurons.me workspaces/packages/utils/neurons.me
+git submodule add https://github.com/suiGn/PixelGrid.me workspaces/packages/utils/PixelGrid.me
+git submodule add https://github.com/suiGn/Tetragrammaton workspaces/packages/utils/Tetragrammaton
+git submodule add https://github.com/suiGn/v.path workspaces/packages/utils/v.path
+PACKAGES/CONTROLLERS
+git submodule add https://github.com/suiGn/this.be workspaces/packages/controllers/this.be
+git submodule add https://github.com/suiGn/be.this workspaces/packages/controllers/be.this
+GPTS
+git submodule add https://github.com/suiGn/Haiku workspaces/GPTS/Haiku
+git submodule add https://github.com/suiGn/Lisa workspaces/GPTS/Lisa
+APPS
+git submodule add https://github.com/suiGn/apps/suign.github.io workspaces/apps/suign.github.io
+
+
+
+
+
+
+
+
+
+
+
