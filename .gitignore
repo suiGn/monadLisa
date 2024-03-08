@@ -16,3 +16,4 @@ workspaces/apps/*
 workspaces/GPTS/*
 workspaces/endpoints/*
 
+.DS_Store
