@@ -8,14 +8,19 @@
   "workspaces": [
     "workspaces/endpoints/*",
     "workspaces/apps/*",
-    "workspaces/packages/*"
+    "workspaces/GPTS/*",
+    "workspaces/packages/all.this",
+    "workspaces/packages/utils/*",
+    "workspaces/packages/dataformatters/*",
+    "workspaces/packages/controllers/*"
   ],
   "bin": {
     "my-cli": "src/cli/main.js"
   },
   "scripts": {
     "test": "test",
-    "start": "node index.js"
+    "start": "node index.js",
+    "setupWorkspace": "node ./workspaces/setupWorkspaces.cjs"
   },
   "repository": {
     "type": "git",
@@ -37,9 +42,12 @@
     "dotenv": "^16.4.5",
     "ejs": "^3.1.9",
     "express": "^4.18.2",
+    "i.mlearning": "^2.3.3",
     "inquirer": "^9.2.12",
     "netget": "^2.3.0",
+    "neurons.me": "^2.9.1",
     "this.me": "^2.8.4",
+    "this.pixelgrid": "^3.4.8",
     "v.path": "^2.2.9"
   }
 }

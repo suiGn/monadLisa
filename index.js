@@ -5,13 +5,16 @@
 🆂🆄🅸🅶🅽                                                                                                                                         
 */
 import 'dotenv/config';
-import { createPool } from 'v.path'; // Adjust the path based on your project structure
+import vpath from 'v.path'; // Adjust the path based on your project structure
 import Me from "this.me";
 import cleaker from "cleaker";
+import neurons from 'neurons.me';
+import imLearning from 'i.mlearning';
+import pixelgrid from 'this.pixelgrid';
 //start express_server from server.cjs
 import { Gateway } from 'netget';
 //Plug in to LisaMemory
-const dbPool = createPool(
+const dbPool = vpath.createPool(
   process.env.DB_HOST,
   parseInt(process.env.DB_PORT, 10),
   process.env.DB_USER,

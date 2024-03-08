@@ -1,9 +1,12 @@
 node_modules/
-/workspaces/packages/*
+/workspaces/packages/all.this.dataformatters/*
+/workspaces/packages/utils/*
 /workspaces/apps/*
+/workspaces/GPTS/*
 /workspaces/endpoints/*
 /workspacesyarn.lock
 /package-lock.json
 .env
 # Ignore all files in the root except the ones we want to publish
 
+"category": "utils",
