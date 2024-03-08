@@ -8,8 +8,15 @@ package-lock.json
 # Remove specific ignores for directories you'll add as submodules
 # For example, if you'll add all.this as a submodule, don't ignore it here
 
+# Allow .gitkeep files, but ignore other contents in these directories
+!workspaces/apps/.gitkeep
+!workspaces/GPTS/.gitkeep
+!workspaces/endpoints/.gitkeep
+!workspaces/packages/dataformatters/.gitkeep
+!workspaces/packages/utils/.gitkeep
+!workspaces/packages/controllers/.gitkeep
+
 # Ignore all other directories and files in workspaces/packages that are not submodules
-workspaces/packages/all.this
 workspaces/packages/dataformatters/*
 workspaces/packages/utils/*
 workspaces/packages/controllers/*
