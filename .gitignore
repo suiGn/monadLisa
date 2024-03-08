@@ -1,6 +1,9 @@
 node_modules/
-/workspaces/packages/all.this.dataformatters/*
+/workspaces/packages/*
+/workspaces/packages/all.this/
+/workspaces/packages/dataformatters/*
 /workspaces/packages/utils/*
+/workspaces/packages/controllers/*
 /workspaces/apps/*
 /workspaces/GPTS/*
 /workspaces/endpoints/*
