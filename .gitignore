@@ -9,7 +9,10 @@ package-lock.json
 # For example, if you'll add all.this as a submodule, don't ignore it here
 
 # Ignore all other directories and files in workspaces/packages that are not submodules
-workspaces/packages/*/
+workspaces/packages/all.this
+workspaces/packages/dataformatters/*
+workspaces/packages/utils/*
+workspaces/packages/controllers/*
 
 # Ignore everything in these directories
 workspaces/apps/*
