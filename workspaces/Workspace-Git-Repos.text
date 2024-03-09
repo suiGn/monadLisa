@@ -28,7 +28,7 @@ GPTS
 git submodule add https://github.com/suiGn/Haiku workspaces/GPTS/Haiku
 git submodule add https://github.com/suiGn/Lisa workspaces/GPTS/Lisa
 APPS
-git submodule add https://github.com/suiGn/apps/suign.github.io workspaces/apps/suign.github.io
+git submodule add https://github.com/suiGn/suign.github.io workspaces/apps/suign.github.io
 
 
 

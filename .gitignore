@@ -4,14 +4,6 @@ package-lock.json
 .env
 **/.DS_Store
 
-# Ignore all other directories and files in workspaces that are not specifically unignored
-workspaces/apps/*
-workspaces/GPTS/*
-workspaces/endpoints/*
-workspaces/packages/dataformatters/*
-workspaces/packages/utils/*
-workspaces/packages/controllers/*
-
 # Now explicitly allow .gitkeep files, overriding the previous ignore rules
 !workspaces/apps/.gitkeep
 !workspaces/GPTS/.gitkeep
