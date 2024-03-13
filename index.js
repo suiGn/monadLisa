@@ -8,12 +8,14 @@ import 'dotenv/config';
 //utils
 // Configure your gateway instance
 //start NetGet
-import { Gateway } from 'netget';
-const gateway = new Gateway({
+import NetGet  from 'netget';
+const gateway = new NetGet.Gateway({
   port: process.env.GATEWAY_PORT,
   domainsConfigPath: process.env.DOMAINS_CONFIG_PATH
 });
 
+gateway.listen();
+console.log("ooooo000000-----" + process.env.GATEWAY_PORT);
 //all.this Data Structures.
 import thisAudio from 'this.audio';
 import thisDOM from 'this.dom';
@@ -50,5 +52,4 @@ const dbPool = vpath.createPool(
   process.env.DB_NAME
 );
 */
-gateway.listen();
 
