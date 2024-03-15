@@ -11,7 +11,6 @@ console.log(`v.path@ ${os.homedir()}/.me`);
  *  - Command Line Interface.
  *  The CLI application's code structure is categorized into two main parts:
  *  Command Definitions and Interactive Shell.*/
- 
 /***
  * Command Definitions:
  * Leverages the `commander` package to define the CLI commands and options. 
@@ -22,12 +21,10 @@ import program from './commands.js';
  * The `main` function orchestrates the CLI interactions.
  */
 import { shell as meShell } from 'this.me';
-
 /**
 * Main function to handle the CLI interactions.
 * Continuously prompts the user for actions until an exit command is given.
 */
-
 async function main() {
 printWelcome();
   let exit = false;
@@ -60,13 +57,11 @@ printWelcome();
       }
   }
 }
-
 if (process.argv.length > 2) {
   program.parse(process.argv);
 } else {
   main();
 }
-
 // Error handling for CLI
 process.on('uncaughtException', (err) => {
   console.error('An error occurred in the CLI:', err.message);

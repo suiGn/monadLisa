@@ -1,6 +1,6 @@
 {
   "name": "monadlisa",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Monorepo.",
   "main": "index.js",
   "private": true,
@@ -15,7 +15,8 @@
     "workspaces/packages/controllers/*"
   ],
   "bin": {
-    "my-cli": "src/cli/main.js"
+    ".lisa": "./src/cli/main.j",
+    ".Lisa": "./src/cli/main.j"
   },
   "scripts": {
     "test": "test",
@@ -49,6 +50,6 @@
     "this.audio": "^1.1.21",
     "this.me": "^2.8.4",
     "this.pixelgrid": "^3.4.8",
-    "v.path": "^2.2.9"
+    "v.path": "^2.3.41"
   }
 }

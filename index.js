@@ -6,16 +6,20 @@
 */
 import 'dotenv/config';
 //utils
-// Configure your gateway instance
 //start NetGet
 import NetGet  from 'netget';
 const gateway = new NetGet.Gateway({
   port: process.env.GATEWAY_PORT,
   domainsConfigPath: process.env.DOMAINS_CONFIG_PATH
 });
-
 gateway.listen();
-console.log("ooooo000000-----" + process.env.GATEWAY_PORT);
+console.log("process.env.DB_HOST: " + process.env.DB_HOST);
+console.log("process.env.DB_PORT: " + process.env.DB_PORT);
+console.log("process.env.NETGET_PORT: " + process.env.NETGET_PORT);
+console.log("process.env.DOMAINS_CONFIG_PATH: " + process.env.DOMAINS_CONFIG_PATH);
+
+
+
 //all.this Data Structures.
 import thisAudio from 'this.audio';
 import thisDOM from 'this.dom';
@@ -37,7 +41,7 @@ const meInfo = {
 };
 
 const me = new Me(meInfo);
-/*import vpath from 'v.path'; // Adjust the path based on your project structure
+import vpath from 'v.path'; // Adjust the path based on your project structure
 //import Me from "this.me";
 //import cleaker from "cleaker";
 //import neurons from 'neurons.me';
@@ -51,5 +55,6 @@ const dbPool = vpath.createPool(
   process.env.DB_PASSWORD,
   process.env.DB_NAME
 );
-*/
 
+
+console.log("End of monadLisa index.js read.");
