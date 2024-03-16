@@ -28,7 +28,6 @@
 [submodule "workspaces/packages/dataformatters/this.python"]
 	path = workspaces/packages/dataformatters/this.python
 	url = https://github.com/suiGn/this.python
-		
 [submodule "workspaces/packages/dataformatters/this.text"]
 	path = workspaces/packages/dataformatters/this.text
 	url = https://github.com/suiGn/this.text
