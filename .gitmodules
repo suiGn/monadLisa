@@ -70,13 +70,13 @@
 [submodule "workspaces/apps/suign.github.io"]
 	path = workspaces/apps/Arche
 	url = https://github.com/suiGn/Arche
-[submodule "Arche"]
+[submodule "workspaces/apps/Arche"]
 	path = Arche
 	url = https://github.com/suiGn/Arche.git
 	
-[submodule "at0m.me"]
+[submodule "workspaces/apps/at0m.me"]
 	path = at0m.me
 	url = https://github.com/suiGn/at0m.me.git
-[submodule "Caelestibus"]
+[submodule "workspaces/apps/Caelestibus"]
 	path = Caelestibus
 	url = https://github.com/suiGn/Caelestibus
