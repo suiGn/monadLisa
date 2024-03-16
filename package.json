@@ -1,9 +1,8 @@
 {
   "name": "monadlisa",
-  "version": "1.0.2",
+  "version": "2.0.3",
   "description": "Monorepo.",
   "main": "index.js",
-  "private": true,
   "type": "module",
   "workspaces": [
     "workspaces/endpoints/*",
@@ -15,8 +14,7 @@
     "workspaces/packages/controllers/*"
   ],
   "bin": {
-    ".lisa": "./src/cli/main.j",
-    ".Lisa": "./src/cli/main.j"
+    ".lisa": "./src/cli/main.j"
   },
   "scripts": {
     "test": "test",
