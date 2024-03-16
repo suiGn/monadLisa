@@ -1,6 +1,6 @@
 {
   "name": "this.python",
-  "version": "0.0.0",
+  "version": "0.0.01",
   "description": "manage this python",
   "main": "index.js",
   "scripts": {
