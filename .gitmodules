@@ -68,8 +68,8 @@
 	path = workspaces/GPTS/Lisa
 	url = https://github.com/suiGn/Lisa
 [submodule "workspaces/apps/suign.github.io"]
-	path = workspaces/apps/Arche
-	url = https://github.com/suiGn/Arche
+	path = workspaces/apps/suign.github.io
+	url = https://github.com/suiGn/suign.github.io
 [submodule "workspaces/apps/Arche"]
 	path = Arche
 	url = https://github.com/suiGn/Arche.git
