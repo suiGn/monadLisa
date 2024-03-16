@@ -70,19 +70,7 @@
 [submodule "workspaces/apps/suign.github.io"]
 	path = workspaces/apps/suign.github.io
 	url = https://github.com/suiGn/suign.github.io
-[submodule "workspaces/apps/Arche"]
-	path = Arche
-	url = https://github.com/suiGn/Arche
-[submodule "workspaces/apps/at0m.me"]
-	path = at0m.me
-	url = https://github.com/suiGn/at0m.me
-[submodule "workspaces/apps/Caelestibus"]
-	path = Caelestibus
-	url = https://github.com/suiGn/Caelestibus
-[submodule "workspaces/apps/cleaker.me"]
-	path = cleaker.me
-	url = https://github.com/suiGn/cleaker.me
-[submodule "workspaces/apps/i.mlearning.me"]
-	path = i.mlearning.me
-	url = https://github.com/suiGn/i.mlearning.me
 
+[submodule "workspaces/apps/Arche"]
+	path = workspaces/apps/Arche
+	url = https://github.com/suiGn/Arche
