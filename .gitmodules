@@ -1,0 +1,102 @@
+[submodule "workspaces/packages/all.this"]
+	path = workspaces/packages/all.this
+	url = https://github.com/suiGn/all.this
+[submodule "workspaces/packages/dataformatters/this.audio"]
+	path = workspaces/packages/dataformatters/this.audio
+	url = https://github.com/suiGn/this.audio
+[submodule "workspaces/packages/dataformatters/this.dictionaries"]
+	path = workspaces/packages/dataformatters/this.dictionaries
+	url = https://github.com/suiGn/this.dictionaries
+[submodule "workspaces/packages/dataformatters/this.DOM"]
+	path = workspaces/packages/dataformatters/this.DOM
+	url = https://github.com/suiGn/this.DOM
+[submodule "workspaces/packages/dataformatters/this.env"]
+	path = workspaces/packages/dataformatters/this.env
+	url = https://github.com/suiGn/this.env
+[submodule "workspaces/packages/dataformatters/this.GUI"]
+	path = workspaces/packages/dataformatters/this.GUI
+	url = https://github.com/suiGn/this.GUI
+[submodule "workspaces/packages/dataformatters/this.img"]
+	path = workspaces/packages/dataformatters/this.img
+	url = https://github.com/suiGn/this.img
+[submodule "workspaces/packages/dataformatters/this.me"]
+	path = workspaces/packages/dataformatters/this.me
+	url = https://github.com/suiGn/this.me
+[submodule "workspaces/packages/dataformatters/this.pixel"]
+	path = workspaces/packages/dataformatters/this.pixel
+	url = https://github.com/suiGn/this.pixel
+[submodule "workspaces/packages/dataformatters/this.text"]
+	path = workspaces/packages/dataformatters/this.text
+	url = https://github.com/suiGn/this.text
+[submodule "workspaces/packages/dataformatters/this.video"]
+	path = workspaces/packages/dataformatters/this.video
+	url = https://github.com/suiGn/this.video
+[submodule "workspaces/packages/dataformatters/this.wallet"]
+	path = workspaces/packages/dataformatters/this.wallet
+	url = https://github.com/suiGn/this.wallet
+[submodule "workspaces/packages/utils/atom.me"]
+	path = workspaces/packages/utils/atom.me
+	url = https://github.com/suiGn/atom.me
+[submodule "workspaces/packages/utils/i.mlearning"]
+	path = workspaces/packages/utils/i.mlearning
+	url = https://github.com/suiGn/i.mlearning
+[submodule "workspaces/packages/utils/netget"]
+	path = workspaces/packages/utils/netget
+	url = https://github.com/suiGn/netget
+[submodule "workspaces/packages/utils/neurons.me"]
+	path = workspaces/packages/utils/neurons.me
+	url = https://github.com/suiGn/neurons.me
+[submodule "workspaces/packages/utils/PixelGrid.me"]
+	path = workspaces/packages/utils/PixelGrid.me
+	url = https://github.com/suiGn/PixelGrid.me
+[submodule "workspaces/packages/utils/Tetragrammaton"]
+	path = workspaces/packages/utils/Tetragrammaton
+	url = https://github.com/suiGn/Tetragrammaton
+[submodule "workspaces/packages/utils/v.path"]
+	path = workspaces/packages/utils/v.path
+	url = https://github.com/suiGn/v.path
+[submodule "workspaces/packages/controllers/this.be"]
+	path = workspaces/packages/controllers/this.be
+	url = https://github.com/suiGn/this.be
+[submodule "workspaces/packages/controllers/be.this"]
+	path = workspaces/packages/controllers/be.this
+	url = https://github.com/suiGn/be.this
+[submodule "workspaces/GPTS/Haiku"]
+	path = workspaces/GPTS/Haiku
+	url = https://github.com/suiGn/Haiku
+[submodule "workspaces/GPTS/Lisa"]
+	path = workspaces/GPTS/Lisa
+	url = https://github.com/suiGn/Lisa
+[submodule "workspaces/apps/suign.github.io"]
+	path = workspaces/apps/suign.github.io
+	url = https://github.com/suiGn/suign.github.io
+
+[submodule "workspaces/apps/Arche"]
+	path = workspaces/apps/Arche
+	url = https://github.com/suiGn/Arche
+
+
+[submodule "workspaces/apps/at0m.me"]
+	path = workspaces/apps/at0m.me
+	url = https://github.com/suiGn/at0m.me
+[submodule "workspaces/apps/Caelestibus"]
+	path = workspaces/apps/Caelestibus
+	url = https://github.com/suiGn/Caelestibus
+[submodule "workspaces/apps/cleaker.me"]
+	path = workspaces/apps/cleaker.me
+	url = https://github.com/suiGn/cleaker.me
+[submodule "workspaces/apps/mdrn"]
+	path = workspaces/apps/mdrn
+	url = https://github.com/suiGn/mdrn
+[submodule "workspaces/apps/mexicoEncuesta"]
+	path = workspaces/apps/mexicoEncuesta
+	url = https://github.com/suiGn/mexicoEncuesta
+[submodule "workspaces/apps/OrgBoat"]
+	path = workspaces/apps/OrgBoat
+	url = https://github.com/suiGn/OrgBoat
+[submodule "workspaces/apps/i.mlearning.me"]
+	path = workspaces/apps/i.mlearning.me
+	url = https://github.com/suiGn/i.mlearning.me
+[submodule "workspaces/apps/FullTrailer"]
+	path = workspaces/apps/FullTrailer
+	url = https://github.com/suiGn/FullTrailer
