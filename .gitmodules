@@ -71,5 +71,24 @@
 	path = workspaces/GPTS/Lisa
 	url = https://github.com/suiGn/Lisa
 [submodule "workspaces/apps/suign.github.io"]
-	path = workspaces/apps/suign.github.io
-	url = https://github.com/suiGn/suign.github.io
+	path = workspaces/apps/Arche
+	url = https://github.com/suiGn/Arche
+[submodule "workspaces/apps/Arche"]
+	path = workspaces/apps/at0m.me
+	url = https://github.com/suiGn/at0m.me
+[submodule "workspaces/apps/Caelestibus"]
+	path = workspaces/apps/Caelestibus
+	url = https://github.com/suiGn/Caelestibus
+[submodule "workspaces/apps/i.mlearning.me"]
+	path = workspaces/apps/i.mlearning.me
+	url = https://github.com/suiGn/i.mlearning.me
+[submodule "workspaces/apps/mdrn"]
+	path = workspaces/apps/mdrn
+	url = https://github.com/suiGn/mdrn
+[submodule "workspaces/apps/mexicoEncuesta"]
+	path = workspaces/apps/mexicoEncuesta
+	url = https://github.com/suiGn/mexicoEncuesta
+[submodule "workspaces/apps/OrgBoat"]
+	path = workspaces/apps/OrgBoat
+	url = https://github.com/suiGn/OrgBoat
+
