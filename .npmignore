@@ -15,7 +15,6 @@ yarn.lock
 package-lock.json
 .env
 **/.DS_Store
-./workspaces
 ./docs
 # Now explicitly allow .gitkeep files, overriding the previous ignore rules
 !workspaces/apps/.gitkeep
