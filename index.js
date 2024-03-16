@@ -58,3 +58,16 @@ const dbPool = vpath.createPool(
 
 
 console.log("End of monadLisa index.js read.");
+
+
+
+
+
+/*
+git submodule add https://github.com/suiGn/Caelestibus workspaces/apps/Caelestibus
+git submodule add https://github.com/suiGn/cleaker.me workspaces/apps/cleaker.me
+git submodule add https://github.com/suiGn/i.mlearning.me workspaces/apps/i.mlearning.me
+git submodule add https://github.com/suiGn/mdrn workspaces/apps/mdrn
+git submodule add https://github.com/suiGn/mexicoEncuesta workspaces/apps/mexicoEncuesta
+git submodule add https://github.com/suiGn/OrgBoat workspaces/apps/OrgBoat
+*/
