@@ -1,25 +1,37 @@
-.eslintignore
-.eslintrc.js
-.prettierignore
-.prettierrc
-CODE_OF_CONDUCT.md
-CONTRIBUTING.md
-gitprofile.config.js
-library.config.js
-tailwind.config.mjs
-vite.config.js
-stats.html
-docs/
+# Node and editor files
 node_modules/
 yarn.lock
 package-lock.json
 .env
 **/.DS_Store
-./docs
-# Now explicitly allow .gitkeep files, overriding the previous ignore rules
-!workspaces/apps/.gitkeep
-!workspaces/GPTS/.gitkeep
-!workspaces/endpoints/.gitkeep
-!workspaces/packages/dataformatters/.gitkeep
-!workspaces/packages/utils/.gitkeep
-!workspaces/packages/controllers/.gitkeep
+
+# Local development
+local.config.js
+debug.log
+
+# Documentation and examples
+docs/
+examples/
+
+# Test directories
+tests/
+__tests__/
+coverage/
+
+# Build and source maps
+dist/
+*.map
+
+# Ignore all submodules (directories with a .git)
+**/.git
+
+# All files inside the workspaces directory
+workspaces/
+
+# Specific subdirectories to ignore
+workspaces/packages/dataformatters/
+workspaces/packages/utils/
+# ... add more directories as needed
+
+# Now explicitly allow .gitkeep files
+!.gitkeep
