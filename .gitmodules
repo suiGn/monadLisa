@@ -89,3 +89,6 @@
 	path = workspaces/apps/OrgBoat
 	url = https://github.com/suiGn/OrgBoat
 
+[submodule "Arche"]
+	path = Arche
+	url = https://github.com/suiGn/Arche.git
