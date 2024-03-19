@@ -1,4 +1,4 @@
-// src/cli/commands.js
+// src/CLI/commands.js
 
 import { Command } from 'commander';
 const program = new Command();

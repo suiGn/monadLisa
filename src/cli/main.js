@@ -15,7 +15,7 @@ console.log(`v.path@ ${os.homedir()}/.me`);
  * Command Definitions:
  * Leverages the `commander` package to define the CLI commands and options. 
  **/
-import program from './commands.js';
+import program from 'commands.js';
 /*** Interactive Shellsc:
  * Leverages the `inquirer` package to provide an interactive shell experience with prompts.
  * The `main` function orchestrates the CLI interactions.

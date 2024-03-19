@@ -1,6 +1,6 @@
 {
   "name": "monadlisa",
-  "version": "2.3.3",
+  "version": "2.3.5",
   "description": "Monorepo.",
   "main": "index.js",
   "type": "module",
@@ -15,10 +15,10 @@
   ],
   "scripts": {
     "start": "node index.js"
-    },
-    "bin": {
-      ".lisa": "src/cli/main.js"
-    },
+  },
+  "bin": {
+    ".lisa": "src/CLI/main.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/suiGn/monadLisa.git"
@@ -34,6 +34,7 @@
   },
   "homepage": "https://github.com/suiGn/monadLisa#readme",
   "dependencies": {
+    "chalk": "^5.3.0",
     "cleaker": "^2.6.1",
     "commander": "^11.1.0",
     "dotenv": "^16.4.5",
