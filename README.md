@@ -13,16 +13,14 @@ This guide would detail steps for running your monadLisa with PM2, and setting i
 # The Creation of Identity
 
 install globally with npm to get .Lisa command.
-
 ```js
 npm install -g monadlisa
 ```
 
 Clone the main repository and fetch all the contents of the submodules to install monadlisa as a the whole monoRepo:
-
 ```bash
 git clone --recurse-submodules https://github.com/suiGn/monadLisa.git
 ```
 
-# 
+run .lisa on your terminal.
 
