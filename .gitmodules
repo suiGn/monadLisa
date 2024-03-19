@@ -100,3 +100,6 @@
 [submodule "workspaces/apps/FullTrailer"]
 	path = workspaces/apps/FullTrailer
 	url = https://github.com/suiGn/FullTrailer
+[submodule "workspaces/packages/utils/cleaker"]
+	path = workspaces/packages/utils/cleaker
+	url = https://github.com/suiGn/cleaker
