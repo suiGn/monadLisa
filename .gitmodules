@@ -37,9 +37,6 @@
 [submodule "workspaces/packages/utils/atom.me"]
 	path = workspaces/packages/utils/atom.me
 	url = https://github.com/suiGn/atom.me
-[submodule "workspaces/packages/utils/cleaker"]
-	path = workspaces/packages/utils/cleaker
-	url = https://github.com/suiGn/cleaker
 [submodule "workspaces/packages/utils/i.mlearning"]
 	path = workspaces/packages/utils/i.mlearning
 	url = https://github.com/suiGn/i.mlearning
