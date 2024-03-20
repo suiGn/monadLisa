@@ -7,9 +7,14 @@ import 'dotenv/config';
 import Me from 'this.me';
 let me = new Me();
 import neurons from 'neurons.me';
+
+// NETGET
 import NetGet from 'netget';
+import { routes } from './GET/routes.js';
 let netget = new NetGet();
-netget.Gateway().listen();
+netget.Gateway({ routes: routes }).listen();
+// ------------ //
+
 import vpath from 'v.path';
 const dbPool = vpath.createPool(
   process.env.DB_HOST,
@@ -18,6 +23,7 @@ const dbPool = vpath.createPool(
   process.env.DB_PASSWORD,
   process.env.DB_NAME
 );
+
 //import cleaker from "cleaker";
 //import imLearning from 'i.mlearning';
 //import pixelgrid from 'this.pixelgrid';
