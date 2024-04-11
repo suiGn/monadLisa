@@ -17,7 +17,7 @@
     "start": "node index.js"
   },
   "bin": {
-    ".lisa": "src/CLI/main.js"
+    ".lisa": "./src/CLI/lisa.cli.js"
   },
   "repository": {
     "type": "git",

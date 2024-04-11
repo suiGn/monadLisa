@@ -1,5 +1,6 @@
 # MonadLISA
 Concepts change according to new understandings.
+The code is the ultimate truth;
 The importance of establishing a **habitat** in **.me**
 
 ## The Monadology Leibniz:
@@ -16,7 +17,7 @@ npm install -g monadlisa
   npm start
   ```
 
-## **Clone the main repository and fetch all the contents of the submodules to install monadLisa as a the whole monoRepo:**
+## Clone the main repository and fetch all the contents of the submodules to install monadLisa as a the whole monoRepo:
 ```bash
 git clone --recurse-submodules https://github.com/suiGn/monadLisa.git
 ```
