@@ -5,7 +5,8 @@
 index.js   */
 import 'dotenv/config';
 import Me from 'this.me';
-let me = new Me();
+let pathToMe = './ME';  // Path to the ME directory within MonadLisa
+let Lisa = new Me();
 import neurons from 'neurons.me';
 
 // NETGET
@@ -14,7 +15,6 @@ import { routes } from './GET/routes.js';
 let netget = new NetGet();
 netget.Gateway({ routes: routes }).listen();
 // ------------ //
-
 import vpath from 'v.path';
 const dbPool = vpath.createPool(
   process.env.DB_HOST,
@@ -31,19 +31,23 @@ const dbPool = vpath.createPool(
 import thisAudio from 'this.audio';
 import thisDOM from 'this.dom';
 import thisGUI from 'this.gui';
-import thisImg from 'this.img';
-import thisWallet from 'this.wallet';
+//THISIMG
+import thisImg from 'this.img'; 
+const imagePath = './_._.svg';
+const options = {
+  width: 100,
+  height: 100,
+  channels: 3,
+  returnFileType: 'jpeg'
+};
+
+thisImg(imagePath, options)
+  .then(processedData => {
+    console.log('Processed Image Data:', processedData);
+  })
+  
+//import thisWallet from 'this.wallet';
 console.log("index.js endLine 1");
 
 
 
-
-
-/*
-git submodule add https://github.com/suiGn/Caelestibus workspaces/apps/Caelestibus
-git submodule add https://github.com/suiGn/cleaker.me workspaces/apps/cleaker.me
-git submodule add https://github.com/suiGn/i.mlearning.me workspaces/apps/i.mlearning.me
-git submodule add https://github.com/suiGn/mdrn workspaces/apps/mdrn
-git submodule add https://github.com/suiGn/mexicoEncuesta workspaces/apps/mexicoEncuesta
-git submodule add https://github.com/suiGn/OrgBoat workspaces/apps/OrgBoat
-*/
