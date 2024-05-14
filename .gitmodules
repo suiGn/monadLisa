@@ -1,6 +1,8 @@
 [submodule "workspaces/packages/all.this"]
 	path = workspaces/packages/all.this
 	url = https://github.com/suiGn/all.this
+
+	
 [submodule "workspaces/packages/dataformatters/this.audio"]
 	path = workspaces/packages/dataformatters/this.audio
 	url = https://github.com/suiGn/this.audio
@@ -34,6 +36,8 @@
 [submodule "workspaces/packages/dataformatters/this.wallet"]
 	path = workspaces/packages/dataformatters/this.wallet
 	url = https://github.com/suiGn/this.wallet
+
+
 [submodule "workspaces/packages/utils/atom.me"]
 	path = workspaces/packages/utils/atom.me
 	url = https://github.com/suiGn/atom.me
@@ -61,21 +65,22 @@
 [submodule "workspaces/packages/controllers/be.this"]
 	path = workspaces/packages/controllers/be.this
 	url = https://github.com/suiGn/be.this
+
+
 [submodule "workspaces/GPTS/Haiku"]
 	path = workspaces/GPTS/Haiku
 	url = https://github.com/suiGn/Haiku
 [submodule "workspaces/GPTS/Lisa"]
 	path = workspaces/GPTS/Lisa
 	url = https://github.com/suiGn/Lisa
+
+
 [submodule "workspaces/apps/suign.github.io"]
 	path = workspaces/apps/suign.github.io
 	url = https://github.com/suiGn/suign.github.io
-
 [submodule "workspaces/apps/Arche"]
 	path = workspaces/apps/Arche
 	url = https://github.com/suiGn/Arche
-
-
 [submodule "workspaces/apps/at0m.me"]
 	path = workspaces/apps/at0m.me
 	url = https://github.com/suiGn/at0m.me
