@@ -2,7 +2,10 @@
 	path = workspaces/packages/all.this
 	url = https://github.com/suiGn/all.this
 
-	
+[submodule "workspaces/packages/monads.openai"]
+	path = workspaces/packages/monads.openai
+	url = https://github.com/suiGn/monads.openai
+
 [submodule "workspaces/packages/dataformatters/this.audio"]
 	path = workspaces/packages/dataformatters/this.audio
 	url = https://github.com/suiGn/this.audio

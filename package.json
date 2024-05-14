@@ -9,6 +9,7 @@
     "workspaces/apps/*",
     "workspaces/GPTS/*",
     "workspaces/packages/all.this",
+    "workspaces/packages/monads.openai",
     "workspaces/packages/utils/*",
     "workspaces/packages/dataformatters/*",
     "workspaces/packages/controllers/*"
