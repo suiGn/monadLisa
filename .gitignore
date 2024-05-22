@@ -11,3 +11,4 @@ node_modules/
 !workspaces/packages/dataformatters/.gitkeep
 !workspaces/packages/utils/.gitkeep
 !workspaces/packages/controllers/.gitkeep
+package-lock.json

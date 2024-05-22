@@ -46,6 +46,7 @@
     "monads.openai": "^2.0.4",
     "netget": "^2.3.0",
     "neurons.me": "^2.9.1",
+    "openai": "^4.47.1",
     "this.audio": "^1.1.21",
     "this.me": "^2.8.4",
     "this.pixelgrid": "^3.4.8",
