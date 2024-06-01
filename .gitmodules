@@ -2,8 +2,8 @@
 	path = workspaces/packages/all.this
 	url = https://github.com/suiGn/all.this
 
-[submodule "workspaces/packages/monads.openai"]
-	path = workspaces/packages/monads.openai
+[submodule "workspaces/packages/utils/monads.openai"]
+	path = workspaces/packages/utils/monads.openai
 	url = https://github.com/suiGn/monads.openai
 
 [submodule "workspaces/packages/dataformatters/this.audio"]
@@ -111,3 +111,6 @@
 [submodule "workspaces/packages/utils/cleaker"]
 	path = workspaces/packages/utils/cleaker
 	url = https://github.com/suiGn/cleaker
+[submodule "workspaces/apps/mlearning.studio"]
+	path = workspaces/apps/mlearning.studio
+	url = https://github.com/suiGn/mlearning.studio.git
