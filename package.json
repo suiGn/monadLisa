@@ -15,8 +15,10 @@
     "workspaces/packages/controllers/*"
   ],
   "scripts": {
-    "start": "node index.js"
-  },
+    "start": "node index.js",
+    "monoRepoGitStatus": "git submodule foreach 'git status'",
+    "submoduleChanged": "sh -c 'git submodule foreach \"git fetch origin && git status\"'"
+    },
   "bin": {
     ".lisa": "./src/CLI/lisa.cli.js"
   },
