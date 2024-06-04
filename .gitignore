@@ -1,9 +1,48 @@
-./node_modules/
-./yarn.lock
-./package-lock.json
-.env
-**/.DS_Store
+```gitignore
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
+# Private Keys
+*.pem
+privkey.pem
+
+# Dependency directories
+node_modules/
+
+# Dependency lock files
+package-lock.json
+yarn.lock
+
+# OS generated files
+.DS_Store
+
+# Build output
+dist/
+dist-ssr/
+
+# Local environment files
+*.local
+.env
+
+# Ignore all .env files
+.env*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+```
 # Now explicitly allow .gitkeep files, overriding the previous ignore rules
 !workspaces/apps/.gitkeep
 !workspaces/GPTS/.gitkeep
