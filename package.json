@@ -16,7 +16,7 @@
     "start": "node index.js",
     "monoRepoGitStatus": "git submodule foreach 'git status'",
     "submoduleChanged": "sh -c 'git submodule foreach \"git fetch origin && git status\"'",
-    "updateSourceCode": "node updateSourceCode.js"
+    "updateSourceCode": "node ./src/updates/updateSourceCode.js"
   },
   "bin": {
     ".lisa": "./src/CLI/lisa.cli.js"
