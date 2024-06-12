@@ -8,9 +8,10 @@
     "workspaces/endpoints/*",
     "workspaces/apps/*",
     "workspaces/GPTS/*",
-    "workspaces/packages/all.this/",
-    "workspaces/packages/controllers/",
-    "workspaces/packages/dataformatters/"
+    "workspaces/modules/all.this/",
+    "workspaces/modules/controllers/",
+    "workspaces/modules/objects/",
+    "workspaces/modules/dataformatters/"
   ],
   "scripts": {
     "start": "node index.js",
@@ -45,7 +46,7 @@
     "express": "^4.18.2",
     "i.mlearning": "^2.3.3",
     "inquirer": "^9.2.12",
-    "monads.openai": "^2.0.4",
+    "monads.openai": "^2.0.5",
     "netget": "^2.3.0",
     "neurons.me": "^2.9.1",
     "this.audio": "^1.1.21",

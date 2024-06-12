@@ -47,6 +47,6 @@ dist-ssr/
 !workspaces/apps/.gitkeep
 !workspaces/GPTS/.gitkeep
 !workspaces/endpoints/.gitkeep
-!workspaces/packages/dataformatters/.gitkeep
-!workspaces/packages/utils/.gitkeep
-!workspaces/packages/controllers/.gitkeep
+!workspaces/modules/objects/.gitkeep
+!workspaces/modules/tools/.gitkeep
+!workspaces/modules/controllers/.gitkeep

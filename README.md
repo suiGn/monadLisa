@@ -1,6 +1,4 @@
 # MonadLISA
-Concepts change according to new understandings.
-The code is the ultimate truth;
 The importance of establishing a **habitat** in **.me**
 
 ## The Monadology Leibniz:
@@ -21,7 +19,7 @@ npm install -g monadlisa
 ```bash
 git clone --recurse-submodules https://github.com/suiGn/monadLisa.git
 ```
-**Modularity and Independence**: Each module within the [**neurons.me**](https://neurons.me) ecosystem is designed to function independently yet possesses the inherent capability to integrate with other modules, forming more complex systems. **MonadLisa** leverages this principle, demonstrating the power of modular design and the synergistic potential of these modules when combined.
+**Modularity and Independence**: Each module within the ecosystem is designed to function independently yet possesses the inherent capability to integrate with other modules, forming more complex systems. **MonadLisa** leverages this principle, demonstrating the power of modular design and the synergistic potential of these modules when combined.
 
 ## Pulling Submodule Changes in the Monorepo:
 To get the latest commits for all submodules, you can use:

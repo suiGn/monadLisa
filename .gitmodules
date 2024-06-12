@@ -1,92 +1,92 @@
-[submodule "workspaces/packages/all.this"]
-	path = workspaces/packages/all.this
+[submodule "workspaces/modules/all.this"]
+	path = workspaces/modules/all.this
 	url = https://github.com/suiGn/all.this
 	branch = main
 
-[submodule "workspaces/packages/utils/monads.openai"]
-	path = workspaces/packages/utils/monads.openai
+[submodule "workspaces/GPTS/monads.openai"]
+	path = workspaces/GPTS/monads.openai
 	url = https://github.com/suiGn/monads.openai
 
-[submodule "workspaces/packages/dataformatters/this.audio"]
-	path = workspaces/packages/dataformatters/this.audio
+[submodule "workspaces/modules/objects/this.audio"]
+	path = workspaces/modules/objects/this.audio
 	url = https://github.com/suiGn/this.audio
 	branch = main
-[submodule "workspaces/packages/dataformatters/this.dictionaries"]
-	path = workspaces/packages/dataformatters/this.dictionaries
+[submodule "workspaces/modules/objects/this.dictionaries"]
+	path = workspaces/modules/objects/this.dictionaries
 	url = https://github.com/suiGn/this.dictionaries
 	branch = main
-[submodule "workspaces/packages/dataformatters/this.DOM"]
-	path = workspaces/packages/dataformatters/this.DOM
+[submodule "workspaces/modules/objects/this.DOM"]
+	path = workspaces/modules/objects/this.DOM
 	url = https://github.com/suiGn/this.DOM
 	branch = main
-[submodule "workspaces/packages/dataformatters/this.env"]
-	path = workspaces/packages/dataformatters/this.env
+[submodule "workspaces/modules/objects/this.env"]
+	path = workspaces/modules/objects/this.env
 	url = https://github.com/suiGn/this.env
 	branch = main
-[submodule "workspaces/packages/dataformatters/this.GUI"]
-	path = workspaces/packages/dataformatters/this.GUI
+[submodule "workspaces/modules/objects/this.GUI"]
+	path = workspaces/modules/objects/this.GUI
 	url = https://github.com/suiGn/this.GUI
 	branch = main
-[submodule "workspaces/packages/dataformatters/this.img"]
-	path = workspaces/packages/dataformatters/this.img
+[submodule "workspaces/modules/objects/this.img"]
+	path = workspaces/modules/objects/this.img
 	url = https://github.com/suiGn/this.img
 	branch = main
-[submodule "workspaces/packages/dataformatters/this.me"]
-	path = workspaces/packages/dataformatters/this.me
+[submodule "workspaces/modules/objects/this.me"]
+	path = workspaces/modules/objects/this.me
 	url = https://github.com/suiGn/this.me
 	branch = main
-[submodule "workspaces/packages/dataformatters/this.pixel"]
-	path = workspaces/packages/dataformatters/this.pixel
+[submodule "workspaces/modules/objects/this.pixel"]
+	path = workspaces/modules/objects/this.pixel
 	url = https://github.com/suiGn/this.pixel
 	branch = main
-[submodule "workspaces/packages/dataformatters/this.text"]
-	path = workspaces/packages/dataformatters/this.text
+[submodule "workspaces/modules/objects/this.text"]
+	path = workspaces/modules/objects/this.text
 	url = https://github.com/suiGn/this.text
 	branch = main
-[submodule "workspaces/packages/dataformatters/this.video"]
-	path = workspaces/packages/dataformatters/this.video
+[submodule "workspaces/modules/objects/this.video"]
+	path = workspaces/modules/objects/this.video
 	url = https://github.com/suiGn/this.video
 	branch = main
-[submodule "workspaces/packages/dataformatters/this.wallet"]
-	path = workspaces/packages/dataformatters/this.wallet
+[submodule "workspaces/modules/objects/this.wallet"]
+	path = workspaces/modules/objects/this.wallet
 	url = https://github.com/suiGn/this.wallet
 	branch = main
 
 
-[submodule "workspaces/packages/utils/atom.me"]
-	path = workspaces/packages/utils/atom.me
+[submodule "workspaces/modules/tools/atom.me"]
+	path = workspaces/modules/tools/atom.me
 	url = https://github.com/suiGn/atom.me
 	branch = main
-[submodule "workspaces/packages/utils/i.mlearning"]
-	path = workspaces/packages/utils/i.mlearning
+[submodule "workspaces/modules/tools/i.mlearning"]
+	path = workspaces/modules/tools/i.mlearning
 	url = https://github.com/suiGn/i.mlearning
 	branch = main
-[submodule "workspaces/packages/utils/netget"]
-	path = workspaces/packages/utils/netget
+[submodule "workspaces/modules/tools/netget"]
+	path = workspaces/modules/tools/netget
 	url = https://github.com/suiGn/netget
 	branch = main
-[submodule "workspaces/packages/utils/neurons.me"]
-	path = workspaces/packages/utils/neurons.me
+[submodule "workspaces/modules/tools/neurons.me"]
+	path = workspaces/modules/tools/neurons.me
 	url = https://github.com/suiGn/neurons.me
 	branch = main
-[submodule "workspaces/packages/utils/PixelGrid.me"]
-	path = workspaces/packages/utils/PixelGrid.me
+[submodule "workspaces/modules/tools/PixelGrid.me"]
+	path = workspaces/modules/tools/PixelGrid.me
 	url = https://github.com/suiGn/PixelGrid.me
 	branch = main
-[submodule "workspaces/packages/utils/Tetragrammaton"]
-	path = workspaces/packages/utils/Tetragrammaton
+[submodule "workspaces/modules/tools/Tetragrammaton"]
+	path = workspaces/modules/tools/Tetragrammaton
 	url = https://github.com/suiGn/Tetragrammaton
 	branch = main
-[submodule "workspaces/packages/utils/v.path"]
-	path = workspaces/packages/utils/v.path
+[submodule "workspaces/modules/tools/v.path"]
+	path = workspaces/modules/tools/v.path
 	url = https://github.com/suiGn/v.path
 	branch = main
-[submodule "workspaces/packages/controllers/this.be"]
-	path = workspaces/packages/controllers/this.be
+[submodule "workspaces/modules/controllers/this.be"]
+	path = workspaces/modules/controllers/this.be
 	url = https://github.com/suiGn/this.be
 	branch = main
-[submodule "workspaces/packages/controllers/be.this"]
-	path = workspaces/packages/controllers/be.this
+[submodule "workspaces/modules/controllers/be.this"]
+	path = workspaces/modules/controllers/be.this
 	url = https://github.com/suiGn/be.this
 	branch = main
 
@@ -141,8 +141,8 @@
 	path = workspaces/apps/FullTrailer
 	url = https://github.com/suiGn/FullTrailer
 	branch = main
-[submodule "workspaces/packages/utils/cleaker"]
-	path = workspaces/packages/utils/cleaker
+[submodule "workspaces/modules/tools/cleaker"]
+	path = workspaces/modules/tools/cleaker
 	url = https://github.com/suiGn/cleaker
 	branch = main
 [submodule "workspaces/apps/mlearning.studio"]

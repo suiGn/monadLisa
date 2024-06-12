@@ -7,12 +7,12 @@ import 'dotenv/config';
 import Me from 'this.me';
 let pathToMe = './ME';  //Path to the ME directory within MonadLisa
 let Lisa = new Me();
+
+
 //Monads
 // Assuming MonadOpenAI has been published and is importable
 import Monad from 'monads.openai';
-
 const monad = new Monad(process.env.OPENAI_API_KEY);
-
 async function runQuery() {
     try {
         const response = await monad.query("How does the stock market work?");
