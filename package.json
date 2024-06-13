@@ -5,13 +5,14 @@
   "main": "index.js",
   "type": "module",
   "workspaces": [
-    "workspaces/endpoints/*",
-    "workspaces/apps/*",
-    "workspaces/GPTS/*",
-    "workspaces/modules/all.this/",
-    "workspaces/modules/controllers/",
-    "workspaces/modules/objects/",
-    "workspaces/modules/dataformatters/"
+    "codespaces/endpoints/*",
+    "codespaces/apps/*",
+    "codespaces/GPTS/*",
+    "codespaces/modules/all.this/",
+    "codespaces/modules/controllers/",
+    "codespaces/modules/objects/",
+    "codespaces/modules/processes",
+    "codespaces/modules/tools/"
   ],
   "scripts": {
     "start": "node index.js",
@@ -46,7 +47,7 @@
     "express": "^4.18.2",
     "i.mlearning": "^2.3.3",
     "inquirer": "^9.2.12",
-    "monads.openai": "^2.0.5",
+    "monads.ai": "^2.0.51",
     "netget": "^2.3.0",
     "neurons.me": "^2.9.1",
     "this.audio": "^1.1.21",

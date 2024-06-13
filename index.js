@@ -36,13 +36,14 @@ runQuery();
 runChatCompletion();
 
 
-// NETGET
+/* NETGET
 import NetGet from 'netget';
 import { routes } from './GET/routes.js';
 let netget = new NetGet();
 netget.Gateway({ routes: routes }).listen();
+*/
 // ------------ //
-// --- v.path ------ 
+/* --- v.path ------ 
 import vpath from 'v.path';
 // Configuration for the global database pool
 // Configuration for the local database pool
@@ -55,7 +56,7 @@ const localDbPool = vpath.createPool(
 );
 
 const vault = new vpath.TheVault();
-//console.log(vault);
+//console.log(vault);*/
 //import cleaker from "cleaker";
 //import imLearning from 'i.mlearning';
 //import pixelgrid from 'this.pixelgrid';
@@ -63,7 +64,7 @@ const vault = new vpath.TheVault();
 //import thisAudio from 'this.audio';
 //import thisDOM from 'this.dom';
 //import thisGUI from 'this.gui';
-/*THISIMG*/
+/*THISIMG
 import thisImg from 'this.img'; 
 const imagePath = './_._.svg';
 const options = {
@@ -82,6 +83,7 @@ thisImg(imagePath, options)
     console.error('Error processing image:', error);
   });
 //*/  
+
 //import thisWallet from 'this.wallet';
 console.log("index.js endLine 1");
 

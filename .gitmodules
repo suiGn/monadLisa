@@ -1,151 +1,143 @@
-[submodule "workspaces/modules/all.this"]
-	path = workspaces/modules/all.this
+[submodule "codespaces/modules/all.this"]
+	path = codespaces/modules/all.this
 	url = https://github.com/suiGn/all.this
 	branch = main
-
-[submodule "workspaces/GPTS/monads.openai"]
-	path = workspaces/GPTS/monads.openai
-	url = https://github.com/suiGn/monads.openai
-
-[submodule "workspaces/modules/objects/this.audio"]
-	path = workspaces/modules/objects/this.audio
+[submodule "codespaces/GPTS/monads.ai"]
+	path = codespaces/GPTS/monads.ai
+	url = https://github.com/suiGn/monads.ai
+[submodule "codespaces/modules/objects/this.audio"]
+	path = codespaces/modules/objects/this.audio
 	url = https://github.com/suiGn/this.audio
 	branch = main
-[submodule "workspaces/modules/objects/this.dictionaries"]
-	path = workspaces/modules/objects/this.dictionaries
+[submodule "codespaces/modules/objects/this.dictionaries"]
+	path = codespaces/modules/objects/this.dictionaries
 	url = https://github.com/suiGn/this.dictionaries
 	branch = main
-[submodule "workspaces/modules/objects/this.DOM"]
-	path = workspaces/modules/objects/this.DOM
+[submodule "codespaces/modules/objects/this.DOM"]
+	path = codespaces/modules/objects/this.DOM
 	url = https://github.com/suiGn/this.DOM
 	branch = main
-[submodule "workspaces/modules/objects/this.env"]
-	path = workspaces/modules/objects/this.env
+[submodule "codespaces/modules/objects/this.env"]
+	path = codespaces/modules/objects/this.env
 	url = https://github.com/suiGn/this.env
 	branch = main
-[submodule "workspaces/modules/objects/this.GUI"]
-	path = workspaces/modules/objects/this.GUI
+[submodule "codespaces/modules/objects/this.GUI"]
+	path = codespaces/modules/objects/this.GUI
 	url = https://github.com/suiGn/this.GUI
 	branch = main
-[submodule "workspaces/modules/objects/this.img"]
-	path = workspaces/modules/objects/this.img
+[submodule "codespaces/modules/objects/this.img"]
+	path = codespaces/modules/objects/this.img
 	url = https://github.com/suiGn/this.img
 	branch = main
-[submodule "workspaces/modules/objects/this.me"]
-	path = workspaces/modules/objects/this.me
+[submodule "codespaces/modules/objects/this.me"]
+	path = codespaces/modules/objects/this.me
 	url = https://github.com/suiGn/this.me
 	branch = main
-[submodule "workspaces/modules/objects/this.pixel"]
-	path = workspaces/modules/objects/this.pixel
+[submodule "codespaces/modules/objects/this.pixel"]
+	path = codespaces/modules/objects/this.pixel
 	url = https://github.com/suiGn/this.pixel
 	branch = main
-[submodule "workspaces/modules/objects/this.text"]
-	path = workspaces/modules/objects/this.text
+[submodule "codespaces/modules/objects/this.text"]
+	path = codespaces/modules/objects/this.text
 	url = https://github.com/suiGn/this.text
 	branch = main
-[submodule "workspaces/modules/objects/this.video"]
-	path = workspaces/modules/objects/this.video
+[submodule "codespaces/modules/objects/this.video"]
+	path = codespaces/modules/objects/this.video
 	url = https://github.com/suiGn/this.video
 	branch = main
-[submodule "workspaces/modules/objects/this.wallet"]
-	path = workspaces/modules/objects/this.wallet
+[submodule "codespaces/modules/objects/this.wallet"]
+	path = codespaces/modules/objects/this.wallet
 	url = https://github.com/suiGn/this.wallet
 	branch = main
-
-
-[submodule "workspaces/modules/tools/atom.me"]
-	path = workspaces/modules/tools/atom.me
+[submodule "codespaces/modules/tools/atom.me"]
+	path = codespaces/modules/tools/atom.me
 	url = https://github.com/suiGn/atom.me
 	branch = main
-[submodule "workspaces/modules/tools/i.mlearning"]
-	path = workspaces/modules/tools/i.mlearning
+[submodule "codespaces/modules/tools/i.mlearning"]
+	path = codespaces/modules/tools/i.mlearning
 	url = https://github.com/suiGn/i.mlearning
 	branch = main
-[submodule "workspaces/modules/tools/netget"]
-	path = workspaces/modules/tools/netget
+[submodule "codespaces/modules/tools/netget"]
+	path = codespaces/modules/tools/netget
 	url = https://github.com/suiGn/netget
 	branch = main
-[submodule "workspaces/modules/tools/neurons.me"]
-	path = workspaces/modules/tools/neurons.me
+[submodule "codespaces/modules/tools/neurons.me"]
+	path = codespaces/modules/tools/neurons.me
 	url = https://github.com/suiGn/neurons.me
 	branch = main
-[submodule "workspaces/modules/tools/PixelGrid.me"]
-	path = workspaces/modules/tools/PixelGrid.me
+[submodule "codespaces/modules/tools/PixelGrid.me"]
+	path = codespaces/modules/tools/PixelGrid.me
 	url = https://github.com/suiGn/PixelGrid.me
 	branch = main
-[submodule "workspaces/modules/tools/Tetragrammaton"]
-	path = workspaces/modules/tools/Tetragrammaton
+[submodule "codespaces/modules/tools/Tetragrammaton"]
+	path = codespaces/modules/tools/Tetragrammaton
 	url = https://github.com/suiGn/Tetragrammaton
 	branch = main
-[submodule "workspaces/modules/tools/v.path"]
-	path = workspaces/modules/tools/v.path
+[submodule "codespaces/modules/tools/v.path"]
+	path = codespaces/modules/tools/v.path
 	url = https://github.com/suiGn/v.path
 	branch = main
-[submodule "workspaces/modules/controllers/this.be"]
-	path = workspaces/modules/controllers/this.be
+[submodule "codespaces/modules/controllers/this.be"]
+	path = codespaces/modules/controllers/this.be
 	url = https://github.com/suiGn/this.be
 	branch = main
-[submodule "workspaces/modules/controllers/be.this"]
-	path = workspaces/modules/controllers/be.this
+[submodule "codespaces/modules/controllers/be.this"]
+	path = codespaces/modules/controllers/be.this
 	url = https://github.com/suiGn/be.this
 	branch = main
-
-
-[submodule "workspaces/GPTS/Haiku"]
-	path = workspaces/GPTS/Haiku
+[submodule "codespaces/GPTS/Haiku"]
+	path = codespaces/GPTS/Haiku
 	url = https://github.com/suiGn/Haiku
 	branch = main
-[submodule "workspaces/GPTS/Lisa"]
-	path = workspaces/GPTS/Lisa
+[submodule "codespaces/GPTS/Lisa"]
+	path = codespaces/GPTS/Lisa
 	url = https://github.com/suiGn/Lisa
 	branch = main
-
-
-[submodule "workspaces/apps/suign.github.io"]
-	path = workspaces/apps/suign.github.io
+[submodule "codespaces/apps/suign.github.io"]
+	path = codespaces/apps/suign.github.io
 	url = https://github.com/suiGn/suign.github.io
 	branch = main
-[submodule "workspaces/apps/Arche"]
-	path = workspaces/apps/Arche
+[submodule "codespaces/apps/Arche"]
+	path = codespaces/apps/Arche
 	url = https://github.com/suiGn/Arche
 	branch = main
-[submodule "workspaces/apps/at0m.me"]
-	path = workspaces/apps/at0m.me
+[submodule "codespaces/apps/at0m.me"]
+	path = codespaces/apps/at0m.me
 	url = https://github.com/suiGn/at0m.me
 	branch = main
-[submodule "workspaces/apps/Caelestibus"]
-	path = workspaces/apps/Caelestibus
+[submodule "codespaces/apps/Caelestibus"]
+	path = codespaces/apps/Caelestibus
 	url = https://github.com/suiGn/Caelestibus
 	branch = main
-[submodule "workspaces/apps/cleaker.me"]
-	path = workspaces/apps/cleaker.me
+[submodule "codespaces/apps/cleaker.me"]
+	path = codespaces/apps/cleaker.me
 	url = https://github.com/suiGn/cleaker.me
 	branch = main
-[submodule "workspaces/apps/mdrn"]
-	path = workspaces/apps/mdrn
+[submodule "codespaces/apps/mdrn"]
+	path = codespaces/apps/mdrn
 	url = https://github.com/suiGn/mdrn
 	branch = main
-[submodule "workspaces/apps/mexicoEncuesta"]
-	path = workspaces/apps/mexicoEncuesta
+[submodule "codespaces/apps/mexicoEncuesta"]
+	path = codespaces/apps/mexicoEncuesta
 	url = https://github.com/suiGn/mexicoEncuesta
 	branch = main
-[submodule "workspaces/apps/OrgBoat"]
-	path = workspaces/apps/OrgBoat
+[submodule "codespaces/apps/OrgBoat"]
+	path = codespaces/apps/OrgBoat
 	url = https://github.com/suiGn/OrgBoat
 	branch = main
-[submodule "workspaces/apps/i.mlearning.me"]
-	path = workspaces/apps/i.mlearning.me
+[submodule "codespaces/apps/i.mlearning.me"]
+	path = codespaces/apps/i.mlearning.me
 	url = https://github.com/suiGn/i.mlearning.me
 	branch = main
-[submodule "workspaces/apps/FullTrailer"]
-	path = workspaces/apps/FullTrailer
+[submodule "codespaces/apps/FullTrailer"]
+	path = codespaces/apps/FullTrailer
 	url = https://github.com/suiGn/FullTrailer
 	branch = main
-[submodule "workspaces/modules/tools/cleaker"]
-	path = workspaces/modules/tools/cleaker
+[submodule "codespaces/modules/tools/cleaker"]
+	path = codespaces/modules/tools/cleaker
 	url = https://github.com/suiGn/cleaker
 	branch = main
-[submodule "workspaces/apps/mlearning.studio"]
-	path = workspaces/apps/mlearning.studio
+[submodule "codespaces/apps/mlearning.studio"]
+	path = codespaces/apps/mlearning.studio
 	url = https://github.com/suiGn/mlearning.studio.git
 	branch = main
