@@ -1,21 +1,25 @@
 {
   "name": "monadlisa",
-  "version": "2.3.9",
-  "description": "Monorepo.",
+  "version": "2.4.0",
+  "description": "Monorepo Includes the whole setup and install options for the whole ecosystem.",
   "main": "index.js",
   "type": "module",
   "workspaces": [
-    "workspaces/endpoints/*",
-    "workspaces/apps/*",
-    "workspaces/GPTS/*",
-    "workspaces/packages/all.this",
-    "workspaces/packages/monads.openai",
-    "workspaces/packages/utils/*",
-    "workspaces/packages/dataformatters/*",
-    "workspaces/packages/controllers/*"
+    "codespaces/endpoints/*",
+    "codespaces/apps/*",
+    "codespaces/GPTS/*",
+    "codespaces/modules/neurons.me/",
+    "codespaces/modules/all.this/",
+    "codespaces/modules/controllers/",
+    "codespaces/modules/objects/",
+    "codespaces/modules/processes",
+    "codespaces/modules/tools/"
   ],
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "monoRepoGitStatus": "git submodule foreach 'git status'",
+    "submoduleChanged": "sh -c 'git submodule foreach \"git fetch origin && git status\"'",
+    "updateSourceCode": "node ./src/updates/updateSourceCode.js"
   },
   "bin": {
     ".lisa": "./src/CLI/lisa.cli.js"
@@ -36,6 +40,7 @@
   "homepage": "https://github.com/suiGn/monadLisa#readme",
   "dependencies": {
     "chalk": "^5.3.0",
+    "child_process": "^1.0.2",
     "cleaker": "^2.6.1",
     "commander": "^11.1.0",
     "dotenv": "^16.4.5",
@@ -43,13 +48,14 @@
     "express": "^4.18.2",
     "i.mlearning": "^2.3.3",
     "inquirer": "^9.2.12",
-    "monads.openai": "^2.0.4",
+    "monads.ai": "^2.0.51",
     "netget": "^2.3.0",
     "neurons.me": "^2.9.1",
     "openai": "^4.47.1",
     "this.audio": "^1.1.21",
     "this.me": "^2.8.4",
     "this.pixelgrid": "^3.4.8",
+    "util": "^0.12.5",
     "v.path": "^2.3.41"
   }
 }
