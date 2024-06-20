@@ -53,10 +53,6 @@
 	path = codespaces/modules/tools/atom.me
 	url = https://github.com/suiGn/atom.me
 	branch = main
-[submodule "codespaces/modules/tools/i.mlearning"]
-	path = codespaces/modules/tools/i.mlearning
-	url = https://github.com/suiGn/i.mlearning
-	branch = main
 [submodule "codespaces/modules/tools/netget"]
 	path = codespaces/modules/tools/netget
 	url = https://github.com/suiGn/netget
