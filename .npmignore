@@ -26,11 +26,11 @@ dist/
 **/.git
 
 # All files inside the workspaces directory
-workspaces/
+codespaces/
 
 # Specific subdirectories to ignore
-workspaces/packages/dataformatters/
-workspaces/packages/utils/
+codespaces/packages/dataformatters/
+codespaces/packages/utils/
 # ... add more directories as needed
 
 # Now explicitly allow .gitkeep files

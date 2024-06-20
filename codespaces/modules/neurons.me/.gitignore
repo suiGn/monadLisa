@@ -14,7 +14,6 @@ privkey.pem
 
 # Dependency directories
 node_modules/
-./node_modules/
 
 # Dependency lock files
 package-lock.json
@@ -44,10 +43,3 @@ dist-ssr/
 *.sln
 *.sw?
 ```
-# Now explicitly allow .gitkeep files, overriding the previous ignore rules
-!codespaces/apps/.gitkeep
-!codespaces/GPTS/.gitkeep
-!codespaces/endpoints/.gitkeep
-!codespaces/modules/objects/.gitkeep
-!codespaces/modules/tools/.gitkeep
-!codespaces/modules/controllers/.gitkeep

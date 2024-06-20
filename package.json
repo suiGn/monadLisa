@@ -8,6 +8,7 @@
     "codespaces/endpoints/*",
     "codespaces/apps/*",
     "codespaces/GPTS/*",
+    "codespaces/modules/neurons.me/",
     "codespaces/modules/all.this/",
     "codespaces/modules/controllers/",
     "codespaces/modules/objects/",

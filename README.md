@@ -34,3 +34,7 @@ git submodule update --init --recursive
 # Deployment:
 **PM2:** This guide would detail steps for running your monadLisa with PM2, and setting it up to restart automatically on server reboot: [Click Here](https://www.monadlisa.com/about/docs/deployment-and-management-of-monadlisa-with-pm2)
 
+Make the script executable:
+sh
+Copy code
+chmod +x commit_and_push.sh
