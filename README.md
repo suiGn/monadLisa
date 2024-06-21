@@ -1,18 +1,12 @@
 # MonadLISA
-The importance of establishing a **habitat** in **.me**
-
-## The Monadology Leibniz:
-The Monad of which we shall here speak, is nothing but a simple substance, which enters into compounds. By 'simple' it means 'without pars'. (Theod. 10)
-
-## The Creation of an Identity
-Install globally with **npm** to get **.Lisa** command.
+Install global:
 ```js
 npm install -g monadlisa
 ```
-* Run **.lisa** on your terminal to access the command line.
-* Start monadLisa with :
+* Run **.lisa** on your terminal to access.
+* Start with :
   ```bash
-  npm start
+  .lisa
   ```
 
 ## Clone the main repository and fetch all the contents of the submodules to install monadLisa as a the whole monoRepo:
