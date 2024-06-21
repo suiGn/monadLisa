@@ -15,6 +15,7 @@ privkey.pem
 # Dependency directories
 node_modules/
 ./node_modules/
+./package-lock.json
 
 # Dependency lock files
 package-lock.json
