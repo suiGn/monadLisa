@@ -5,15 +5,14 @@
   "main": "index.js",
   "type": "module",
   "workspaces": [
-    "codespaces/endpoints/*",
     "codespaces/apps/*",
     "codespaces/GPTS/*",
     "codespaces/modules/neurons.me/",
     "codespaces/modules/all.this/",
-    "codespaces/modules/controllers/",
-    "codespaces/modules/objects/",
-    "codespaces/modules/processes",
-    "codespaces/modules/tools/"
+    "codespaces/modules/controllers/*",
+    "codespaces/modules/objects/*",
+    "codespaces/modules/processes/*",
+    "codespaces/modules/tools/*"
   ],
   "scripts": {
     "start": "node index.js",

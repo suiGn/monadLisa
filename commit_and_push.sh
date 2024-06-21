@@ -4,15 +4,15 @@
 git submodule foreach --recursive '
   echo "Processing submodule at $name"
   git add .
-  git commit -m "Commit message for submodule at $name"
-  git push origin main # Change branch name if necessary
+  git commit -m "$name"
+  git push origin main 
 '
 
 # Commit and push changes in the main repository
 echo "Processing main repository"
 git add .
-git commit -m "Commit message for main repository"
-git push origin main # Change branch name if necessary
+git commit -m "main repository"
+git push origin main 
 '
 
 # Print completion message
