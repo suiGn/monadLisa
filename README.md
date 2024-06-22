@@ -3,8 +3,7 @@ Install global:
 ```js
 npm install -g monadlisa
 ```
-* Run **.lisa** on your terminal to access.
-* Start with :
+* Run on your terminal:
   ```bash
   .lisa
   ```
