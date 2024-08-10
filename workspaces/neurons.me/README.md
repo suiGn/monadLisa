@@ -1,4 +1,4 @@
-<img src="https://suign.github.io/neurons.me/neurons_logo.png" alt="neurons.me logo" width="123" height="123" style="width123px; height:123px;">
+<img src="https://suign.github.io/assets/imgs/neurons_me_logo.png" alt="neurons.me" width="89" align="right">
 
 ## NEURONS.ME
 A modular framework that simplifies the creation and management of neural networks by introducing layers of abstraction to the design. It allows for the seamless integration of **AI** into various domains, offering a versatile approach to expressing systems through **Deep Learning**.
@@ -27,5 +27,5 @@ npm i neurons.me
   [Terms](https://www.neurons.me/terms-of-use) | [Privacy](https://www.neurons.me/privacy-policy)
   [neurons.me](https://neurons.me)
   
-  <img src="https://suign.github.io/neurons.me/neurons_logo.png" alt="neurons.me logo" width="123" height="123" style="width123px; height:123px;">
+  <img src="https://suign.github.io/assets/imgs/neurons_me_logo.png" alt="neurons.me logo" width="89">
 
