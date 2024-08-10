@@ -3,32 +3,24 @@ import 'dotenv/config';
 import os from 'os';
 import readline from 'readline';
 import OpenAI from 'monads.openai';
-//import NetGet from 'netget';
-//import { routes } from './GET/routes.js';
 //import vpath from 'v.path';
 import repl from 'repl';
 //import ThisMe from './this.me';
 //import Cleaker from 'cleaker';
-
 /** Welcome. */
 console.log(`Session@ ${os.userInfo().username}`);
-console.log(`v.path@ ${os.homedir()}/.lisa`);
-
 // Initialize readline interface
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout
 });
-
 // Initialize Monad with your OpenAI API key
 const monad = new OpenAI({
   apiKey: process.env.OPENAI_API_KEY
 });
-
 // Initialize ThisMe and Cleaker
 //const thisMeInstance = new ThisMe();
 //const cleakerInstance = new Cleaker();
-
 // Command definitions
 const commands = {
   greet: () => {

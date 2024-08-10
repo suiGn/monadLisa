@@ -1,24 +1,17 @@
 {
   "name": "monadlisa",
-  "version": "2.4.0",
-  "description": "Monorepo Includes the whole setup and install options for the whole ecosystem.",
+  "version": "2.4.1",
+  "description": "I think, therefore I am.",
   "main": "index.js",
   "type": "module",
   "workspaces": [
-    "codespaces/apps/*",
-    "codespaces/GPTS/*",
-    "codespaces/modules/neurons.me/",
-    "codespaces/modules/all.this/",
-    "codespaces/modules/controllers/*",
-    "codespaces/modules/objects/*",
-    "codespaces/modules/processes/*",
-    "codespaces/modules/tools/*"
+    "workspaces/*",
+    "workspaces/modules/controllers/*",
+    "workspaces/modules/tools/*"
   ],
   "scripts": {
     "start": "node index.js",
-    "monoRepoGitStatus": "git submodule foreach 'git status'",
-    "submoduleChanged": "sh -c 'git submodule foreach \"git fetch origin && git status\"'",
-    "updateSourceCode": "node ./src/updates/updateSourceCode.js"
+    "postinstall": "git submodule update --init --recursive"
   },
   "bin": {
     ".lisa": "./src/CLI/lisa.cli.js"
@@ -52,7 +45,7 @@
     "neurons.me": "^2.9.1",
     "openai": "^4.47.1",
     "this.audio": "^1.1.21",
-    "this.me": "^2.8.4",
+    "this.me": "^2.9.0",
     "this.pixelgrid": "^3.4.8",
     "util": "^0.12.5",
     "v.path": "^2.3.41"

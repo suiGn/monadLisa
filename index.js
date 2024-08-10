@@ -4,37 +4,25 @@
 🆂🆄🅸🅶🅽     / 
 index.js   */
 import 'dotenv/config';
-import Me from 'this.me';
-let pathToMe = './ME';  //Path to the ME directory within MonadLisa
-let Lisa = new Me();
-
-
-//Monads
-// Assuming MonadOpenAI has been published and is importable
-import Monad from 'monads.openai';
-const monad = new Monad(process.env.OPENAI_API_KEY);
-async function runQuery() {
-    try {
-        const response = await monad.query("How does the stock market work?");
-        console.log("Query response:", response);
-    } catch (error) {
-        console.error("Query failed:", error);
-    }
+import chalk from 'chalk';
+import Me from '../all.this/workspaces/this.me/index.js';
+let me = new Me("Lisa");
+//Me is an instance of an Identity.
+function createUser(username) {
+  try {
+    let user = new Me(username);
+    console.log('Hello, I am', user);
+  } catch (error) {
+    console.error('Error:', error.message);
+  }
 }
-
-async function runChatCompletion() {
-    try {
-        const messages = [{ role: "user", content: "Say this is a test!" }];
-        const response = await monad.chatCompletions(messages);
-        console.log("Chat completion response:", response);
-    } catch (error) {
-        console.error("Chat completion failed:", error);
-    }
-}
-
-runQuery();
-runChatCompletion();
-
+//I am, therefore I exist.
+console.log('Hello, I am', me);
+console.log(chalk.bold('Who are you?'));
+let user = "suign";
+createUser(user);
+//import cleaker from "cleaker";
+//cleaker(me);
 
 /* NETGET
 import NetGet from 'netget';
@@ -43,10 +31,9 @@ let netget = new NetGet();
 netget.Gateway({ routes: routes }).listen();
 */
 // ------------ //
-/* --- v.path ------ 
+// --- v.path ------ 
 import vpath from 'v.path';
 // Configuration for the global database pool
-// Configuration for the local database pool
 const localDbPool = vpath.createPool(
   process.env.LOCAL_DB_HOST,
   parseInt(process.env.LOCAL_DB_PORT, 10),
@@ -55,9 +42,11 @@ const localDbPool = vpath.createPool(
   process.env.DB_NAME
 );
 
-const vault = new vpath.TheVault();
+//const vault = new vpath.TheVault();
 //console.log(vault);*/
-//import cleaker from "cleaker";
+
+//Monads
+import GPT from 'monads.ai';
 //import imLearning from 'i.mlearning';
 //import pixelgrid from 'this.pixelgrid';
 //all.this Data Structures.
@@ -85,7 +74,7 @@ thisImg(imagePath, options)
 //*/  
 
 //import thisWallet from 'this.wallet';
-console.log("index.js endLine 1");
+console.log("monadlisa/index.js endLine 1");
 
 
 
