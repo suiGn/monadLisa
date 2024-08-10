@@ -4,7 +4,6 @@
 --------------------------------
 Build, manage and run your neural networks.
 For more information, visit: https://neurons.me*/
-
 // In neurons.me/index.js
 
 /**
