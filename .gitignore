@@ -45,10 +45,3 @@ dist-ssr/
 *.sln
 *.sw?
 `
-
-!codespaces/apps/.gitkeep
-!codespaces/GPTS/.gitkeep
-!codespaces/endpoints/.gitkeep
-!codespaces/modules/objects/.gitkeep
-!codespaces/modules/tools/.gitkeep
-!codespaces/modules/controllers/.gitkeep

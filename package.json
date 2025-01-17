@@ -4,15 +4,9 @@
   "description": "I think, therefore I am.",
   "main": "index.js",
   "type": "module",
-  "workspaces": [
-    "workspaces/*",
-    "workspaces/modules/controllers/*",
-    "workspaces/modules/tools/*"
-  ],
   "scripts": {
-    "start": "node index.js",
-    "postinstall": "git submodule update --init --recursive"
-  },
+    "start": "node index.js"
+    },
   "bin": {
     ".lisa": "./src/CLI/lisa.cli.js"
   },
