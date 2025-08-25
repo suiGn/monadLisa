@@ -1,0 +1,1 @@
+/Users/abellae/Desktop/Neuroverse/Tetragrammaton/domains/monadLisa/packets/crate/target/package/monadlisa-0.1.1/target/debug/monadlisa: /Users/abellae/Desktop/Neuroverse/Tetragrammaton/domains/monadLisa/packets/crate/target/package/monadlisa-0.1.1/src/main.rs
